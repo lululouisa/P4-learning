@@ -1,0 +1,17 @@
+table_add ipv4_lpm ipv4_forward 10.0.1.1/32 => 00:00:0a:00:01:01 1
+table_add ipv4_lpm ipv4_forward 10.0.1.2/32 => 00:00:0a:00:01:02 2
+
+table_add direction SetDirection 1  =>
+table_set_default layer1 drop
+table_add layer1 Hopping 0 0 1 => 1 1 2
+table_add layer2 Hopping 1 1 1 => 2 2 4457
+table_add layer3 Label 2 2 1 => 3 0
+table_add layer3 Label 2 2 0=> 4 1
+table_add layer2 Hopping 1 1 0 => 5 5 73
+table_add layer3 Label 5 5 1 => 6 0
+table_add layer3 Hopping 5 5 0 => 7 6 1152
+table_add layer4 Label 7 6 1 => 8 1
+table_add layer4 Label 7 6 0 => 9 0
+table_add ipv4_classifier ipv4_forward 0 10.0.1.1/32 => 00:00:0a:00:01:01 1
+table_add ipv4_classifier ipv4_forward 0 10.0.1.2/32 => 00:00:0a:00:01:02 2
+table_set_default ipv4_classifier drop
