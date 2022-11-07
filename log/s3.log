@@ -1,0 +1,302 @@
+Calling target program-options parser
+[23:23:08.828] [bmv2] [D] [thread 13992] Set default default entry for table 'ipv4_lpm': _drop - 
+Adding interface s3-eth1 as port 1
+[23:23:08.831] [bmv2] [D] [thread 13992] Adding interface s3-eth1 as port 1
+Adding interface s3-eth2 as port 2
+[23:23:08.863] [bmv2] [D] [thread 13992] Adding interface s3-eth2 as port 2
+[23:23:08.894] [bmv2] [I] [thread 13992] Starting Thrift server on port 9092
+[23:23:08.895] [bmv2] [I] [thread 13992] Thrift server was started
+[23:23:08.896] [bmv2] [D] [thread 13998] [0.0] [cxt 0] Processing packet received on port 1
+[23:23:08.896] [bmv2] [D] [thread 13998] [0.0] [cxt 0] Parser 'parser': start
+[23:23:08.896] [bmv2] [D] [thread 13998] [0.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:23:08.896] [bmv2] [D] [thread 13998] [0.0] [cxt 0] Parser state 'start' has no switch, going to default next state
+[23:23:08.896] [bmv2] [T] [thread 13998] [0.0] [cxt 0] Bytes parsed: 0
+[23:23:08.896] [bmv2] [D] [thread 13998] [0.0] [cxt 0] Parser 'parser' entering state 'parse_ethernet'
+[23:23:08.896] [bmv2] [D] [thread 13998] [0.0] [cxt 0] Extracting header 'ethernet'
+[23:23:08.896] [bmv2] [D] [thread 13998] [0.0] [cxt 0] Parser state 'parse_ethernet': key is 86dd
+[23:23:08.896] [bmv2] [T] [thread 13998] [0.0] [cxt 0] Bytes parsed: 14
+[23:23:08.896] [bmv2] [T] [thread 13998] [0.0] [cxt 0] Skipping checksum 'cksum_0' verification because target field invalid
+[23:23:08.896] [bmv2] [D] [thread 13998] [0.0] [cxt 0] Parser 'parser': end
+[23:23:08.896] [bmv2] [D] [thread 13998] [0.0] [cxt 0] Pipeline 'ingress': start
+[23:23:08.896] [bmv2] [T] [thread 13998] [0.0] [cxt 0] Applying table 'ipv4_lpm'
+[23:23:08.896] [bmv2] [D] [thread 13998] [0.0] [cxt 0] Looking up key:
+* ipv4.dstAddr        : 00000000
+
+[23:23:08.896] [bmv2] [D] [thread 13998] [0.0] [cxt 0] Table 'ipv4_lpm': miss
+[23:23:08.896] [bmv2] [D] [thread 13998] [0.0] [cxt 0] Action entry is _drop - 
+[23:23:08.896] [bmv2] [T] [thread 13998] [0.0] [cxt 0] Action _drop
+[23:23:08.896] [bmv2] [T] [thread 13998] [0.0] [cxt 0] ip_forward.p4(93) Primitive mark_to_drop(standard_metadata)
+[23:23:08.896] [bmv2] [D] [thread 13998] [0.0] [cxt 0] Pipeline 'ingress': end
+[23:23:08.896] [bmv2] [D] [thread 13998] [0.0] [cxt 0] Egress port is 511
+[23:23:08.896] [bmv2] [D] [thread 13998] [0.0] [cxt 0] Dropping packet at the end of ingress
+[23:23:08.948] [bmv2] [D] [thread 13998] [1.0] [cxt 0] Processing packet received on port 1
+[23:23:08.948] [bmv2] [D] [thread 13998] [1.0] [cxt 0] Parser 'parser': start
+[23:23:08.948] [bmv2] [D] [thread 13998] [1.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:23:08.948] [bmv2] [D] [thread 13998] [1.0] [cxt 0] Parser state 'start' has no switch, going to default next state
+[23:23:08.948] [bmv2] [T] [thread 13998] [1.0] [cxt 0] Bytes parsed: 0
+[23:23:08.948] [bmv2] [D] [thread 13998] [1.0] [cxt 0] Parser 'parser' entering state 'parse_ethernet'
+[23:23:08.948] [bmv2] [D] [thread 13998] [1.0] [cxt 0] Extracting header 'ethernet'
+[23:23:08.948] [bmv2] [D] [thread 13998] [1.0] [cxt 0] Parser state 'parse_ethernet': key is 86dd
+[23:23:08.948] [bmv2] [T] [thread 13998] [1.0] [cxt 0] Bytes parsed: 14
+[23:23:08.948] [bmv2] [T] [thread 13998] [1.0] [cxt 0] Skipping checksum 'cksum_0' verification because target field invalid
+[23:23:08.948] [bmv2] [D] [thread 13998] [1.0] [cxt 0] Parser 'parser': end
+[23:23:08.948] [bmv2] [D] [thread 13998] [1.0] [cxt 0] Pipeline 'ingress': start
+[23:23:08.948] [bmv2] [T] [thread 13998] [1.0] [cxt 0] Applying table 'ipv4_lpm'
+[23:23:08.948] [bmv2] [D] [thread 13998] [1.0] [cxt 0] Looking up key:
+* ipv4.dstAddr        : 00000000
+
+[23:23:08.948] [bmv2] [D] [thread 13998] [1.0] [cxt 0] Table 'ipv4_lpm': miss
+[23:23:08.948] [bmv2] [D] [thread 13998] [1.0] [cxt 0] Action entry is _drop - 
+[23:23:08.948] [bmv2] [T] [thread 13998] [1.0] [cxt 0] Action _drop
+[23:23:08.948] [bmv2] [T] [thread 13998] [1.0] [cxt 0] ip_forward.p4(93) Primitive mark_to_drop(standard_metadata)
+[23:23:08.948] [bmv2] [D] [thread 13998] [1.0] [cxt 0] Pipeline 'ingress': end
+[23:23:08.948] [bmv2] [D] [thread 13998] [1.0] [cxt 0] Egress port is 511
+[23:23:08.948] [bmv2] [D] [thread 13998] [1.0] [cxt 0] Dropping packet at the end of ingress
+[23:23:08.951] [bmv2] [D] [thread 13998] [2.0] [cxt 0] Processing packet received on port 2
+[23:23:08.951] [bmv2] [D] [thread 13998] [2.0] [cxt 0] Parser 'parser': start
+[23:23:08.951] [bmv2] [D] [thread 13998] [2.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:23:08.951] [bmv2] [D] [thread 13998] [2.0] [cxt 0] Parser state 'start' has no switch, going to default next state
+[23:23:08.951] [bmv2] [T] [thread 13998] [2.0] [cxt 0] Bytes parsed: 0
+[23:23:08.951] [bmv2] [D] [thread 13998] [2.0] [cxt 0] Parser 'parser' entering state 'parse_ethernet'
+[23:23:08.951] [bmv2] [D] [thread 13998] [2.0] [cxt 0] Extracting header 'ethernet'
+[23:23:08.951] [bmv2] [D] [thread 13998] [2.0] [cxt 0] Parser state 'parse_ethernet': key is 86dd
+[23:23:08.951] [bmv2] [T] [thread 13998] [2.0] [cxt 0] Bytes parsed: 14
+[23:23:08.951] [bmv2] [T] [thread 13998] [2.0] [cxt 0] Skipping checksum 'cksum_0' verification because target field invalid
+[23:23:08.951] [bmv2] [D] [thread 13998] [2.0] [cxt 0] Parser 'parser': end
+[23:23:08.951] [bmv2] [D] [thread 13998] [2.0] [cxt 0] Pipeline 'ingress': start
+[23:23:08.951] [bmv2] [T] [thread 13998] [2.0] [cxt 0] Applying table 'ipv4_lpm'
+[23:23:08.951] [bmv2] [D] [thread 13998] [2.0] [cxt 0] Looking up key:
+* ipv4.dstAddr        : 00000000
+
+[23:23:08.951] [bmv2] [D] [thread 13998] [2.0] [cxt 0] Table 'ipv4_lpm': miss
+[23:23:08.951] [bmv2] [D] [thread 13998] [2.0] [cxt 0] Action entry is _drop - 
+[23:23:08.951] [bmv2] [T] [thread 13998] [2.0] [cxt 0] Action _drop
+[23:23:08.951] [bmv2] [T] [thread 13998] [2.0] [cxt 0] ip_forward.p4(93) Primitive mark_to_drop(standard_metadata)
+[23:23:08.951] [bmv2] [D] [thread 13998] [2.0] [cxt 0] Pipeline 'ingress': end
+[23:23:08.951] [bmv2] [D] [thread 13998] [2.0] [cxt 0] Egress port is 511
+[23:23:08.952] [bmv2] [D] [thread 13998] [2.0] [cxt 0] Dropping packet at the end of ingress
+[23:23:09.104] [bmv2] [D] [thread 13998] [3.0] [cxt 0] Processing packet received on port 1
+[23:23:09.104] [bmv2] [D] [thread 13998] [3.0] [cxt 0] Parser 'parser': start
+[23:23:09.104] [bmv2] [D] [thread 13998] [3.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:23:09.104] [bmv2] [D] [thread 13998] [3.0] [cxt 0] Parser state 'start' has no switch, going to default next state
+[23:23:09.104] [bmv2] [T] [thread 13998] [3.0] [cxt 0] Bytes parsed: 0
+[23:23:09.104] [bmv2] [D] [thread 13998] [3.0] [cxt 0] Parser 'parser' entering state 'parse_ethernet'
+[23:23:09.104] [bmv2] [D] [thread 13998] [3.0] [cxt 0] Extracting header 'ethernet'
+[23:23:09.105] [bmv2] [D] [thread 13998] [3.0] [cxt 0] Parser state 'parse_ethernet': key is 86dd
+[23:23:09.105] [bmv2] [T] [thread 13998] [3.0] [cxt 0] Bytes parsed: 14
+[23:23:09.105] [bmv2] [T] [thread 13998] [3.0] [cxt 0] Skipping checksum 'cksum_0' verification because target field invalid
+[23:23:09.105] [bmv2] [D] [thread 13998] [3.0] [cxt 0] Parser 'parser': end
+[23:23:09.105] [bmv2] [D] [thread 13998] [3.0] [cxt 0] Pipeline 'ingress': start
+[23:23:09.105] [bmv2] [T] [thread 13998] [3.0] [cxt 0] Applying table 'ipv4_lpm'
+[23:23:09.105] [bmv2] [D] [thread 13998] [3.0] [cxt 0] Looking up key:
+* ipv4.dstAddr        : 00000000
+
+[23:23:09.105] [bmv2] [D] [thread 13998] [3.0] [cxt 0] Table 'ipv4_lpm': miss
+[23:23:09.105] [bmv2] [D] [thread 13998] [3.0] [cxt 0] Action entry is _drop - 
+[23:23:09.105] [bmv2] [T] [thread 13998] [3.0] [cxt 0] Action _drop
+[23:23:09.105] [bmv2] [T] [thread 13998] [3.0] [cxt 0] ip_forward.p4(93) Primitive mark_to_drop(standard_metadata)
+[23:23:09.105] [bmv2] [D] [thread 13998] [3.0] [cxt 0] Pipeline 'ingress': end
+[23:23:09.105] [bmv2] [D] [thread 13998] [3.0] [cxt 0] Egress port is 511
+[23:23:09.105] [bmv2] [D] [thread 13998] [3.0] [cxt 0] Dropping packet at the end of ingress
+[23:23:09.148] [bmv2] [D] [thread 13998] [4.0] [cxt 0] Processing packet received on port 2
+[23:23:09.148] [bmv2] [D] [thread 13998] [4.0] [cxt 0] Parser 'parser': start
+[23:23:09.148] [bmv2] [D] [thread 13998] [4.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:23:09.149] [bmv2] [D] [thread 13998] [4.0] [cxt 0] Parser state 'start' has no switch, going to default next state
+[23:23:09.149] [bmv2] [T] [thread 13998] [4.0] [cxt 0] Bytes parsed: 0
+[23:23:09.149] [bmv2] [D] [thread 13998] [4.0] [cxt 0] Parser 'parser' entering state 'parse_ethernet'
+[23:23:09.149] [bmv2] [D] [thread 13998] [4.0] [cxt 0] Extracting header 'ethernet'
+[23:23:09.149] [bmv2] [D] [thread 13998] [4.0] [cxt 0] Parser state 'parse_ethernet': key is 86dd
+[23:23:09.149] [bmv2] [T] [thread 13998] [4.0] [cxt 0] Bytes parsed: 14
+[23:23:09.149] [bmv2] [T] [thread 13998] [4.0] [cxt 0] Skipping checksum 'cksum_0' verification because target field invalid
+[23:23:09.149] [bmv2] [D] [thread 13998] [4.0] [cxt 0] Parser 'parser': end
+[23:23:09.149] [bmv2] [D] [thread 13998] [4.0] [cxt 0] Pipeline 'ingress': start
+[23:23:09.149] [bmv2] [T] [thread 13998] [4.0] [cxt 0] Applying table 'ipv4_lpm'
+[23:23:09.149] [bmv2] [D] [thread 13998] [4.0] [cxt 0] Looking up key:
+* ipv4.dstAddr        : 00000000
+
+[23:23:09.149] [bmv2] [D] [thread 13998] [4.0] [cxt 0] Table 'ipv4_lpm': miss
+[23:23:09.149] [bmv2] [D] [thread 13998] [4.0] [cxt 0] Action entry is _drop - 
+[23:23:09.149] [bmv2] [T] [thread 13998] [4.0] [cxt 0] Action _drop
+[23:23:09.150] [bmv2] [T] [thread 13998] [4.0] [cxt 0] ip_forward.p4(93) Primitive mark_to_drop(standard_metadata)
+[23:23:09.150] [bmv2] [D] [thread 13998] [4.0] [cxt 0] Pipeline 'ingress': end
+[23:23:09.150] [bmv2] [D] [thread 13998] [4.0] [cxt 0] Egress port is 511
+[23:23:09.150] [bmv2] [D] [thread 13998] [4.0] [cxt 0] Dropping packet at the end of ingress
+[23:23:09.152] [bmv2] [D] [thread 13998] [5.0] [cxt 0] Processing packet received on port 2
+[23:23:09.152] [bmv2] [D] [thread 13998] [5.0] [cxt 0] Parser 'parser': start
+[23:23:09.152] [bmv2] [D] [thread 13998] [5.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:23:09.152] [bmv2] [D] [thread 13998] [5.0] [cxt 0] Parser state 'start' has no switch, going to default next state
+[23:23:09.152] [bmv2] [T] [thread 13998] [5.0] [cxt 0] Bytes parsed: 0
+[23:23:09.152] [bmv2] [D] [thread 13998] [5.0] [cxt 0] Parser 'parser' entering state 'parse_ethernet'
+[23:23:09.152] [bmv2] [D] [thread 13998] [5.0] [cxt 0] Extracting header 'ethernet'
+[23:23:09.152] [bmv2] [D] [thread 13998] [5.0] [cxt 0] Parser state 'parse_ethernet': key is 86dd
+[23:23:09.153] [bmv2] [T] [thread 13998] [5.0] [cxt 0] Bytes parsed: 14
+[23:23:09.153] [bmv2] [T] [thread 13998] [5.0] [cxt 0] Skipping checksum 'cksum_0' verification because target field invalid
+[23:23:09.153] [bmv2] [D] [thread 13998] [5.0] [cxt 0] Parser 'parser': end
+[23:23:09.153] [bmv2] [D] [thread 13998] [5.0] [cxt 0] Pipeline 'ingress': start
+[23:23:09.153] [bmv2] [T] [thread 13998] [5.0] [cxt 0] Applying table 'ipv4_lpm'
+[23:23:09.153] [bmv2] [D] [thread 13998] [5.0] [cxt 0] Looking up key:
+* ipv4.dstAddr        : 00000000
+
+[23:23:09.153] [bmv2] [D] [thread 13998] [5.0] [cxt 0] Table 'ipv4_lpm': miss
+[23:23:09.153] [bmv2] [D] [thread 13998] [5.0] [cxt 0] Action entry is _drop - 
+[23:23:09.153] [bmv2] [T] [thread 13998] [5.0] [cxt 0] Action _drop
+[23:23:09.153] [bmv2] [T] [thread 13998] [5.0] [cxt 0] ip_forward.p4(93) Primitive mark_to_drop(standard_metadata)
+[23:23:09.153] [bmv2] [D] [thread 13998] [5.0] [cxt 0] Pipeline 'ingress': end
+[23:23:09.153] [bmv2] [D] [thread 13998] [5.0] [cxt 0] Egress port is 511
+[23:23:09.153] [bmv2] [D] [thread 13998] [5.0] [cxt 0] Dropping packet at the end of ingress
+[23:23:09.181] [bmv2] [D] [thread 13998] [6.0] [cxt 0] Processing packet received on port 1
+[23:23:09.181] [bmv2] [D] [thread 13998] [6.0] [cxt 0] Parser 'parser': start
+[23:23:09.181] [bmv2] [D] [thread 13998] [6.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:23:09.181] [bmv2] [D] [thread 13998] [6.0] [cxt 0] Parser state 'start' has no switch, going to default next state
+[23:23:09.181] [bmv2] [T] [thread 13998] [6.0] [cxt 0] Bytes parsed: 0
+[23:23:09.181] [bmv2] [D] [thread 13998] [6.0] [cxt 0] Parser 'parser' entering state 'parse_ethernet'
+[23:23:09.181] [bmv2] [D] [thread 13998] [6.0] [cxt 0] Extracting header 'ethernet'
+[23:23:09.181] [bmv2] [D] [thread 13998] [6.0] [cxt 0] Parser state 'parse_ethernet': key is 86dd
+[23:23:09.181] [bmv2] [T] [thread 13998] [6.0] [cxt 0] Bytes parsed: 14
+[23:23:09.181] [bmv2] [T] [thread 13998] [6.0] [cxt 0] Skipping checksum 'cksum_0' verification because target field invalid
+[23:23:09.181] [bmv2] [D] [thread 13998] [6.0] [cxt 0] Parser 'parser': end
+[23:23:09.181] [bmv2] [D] [thread 13998] [6.0] [cxt 0] Pipeline 'ingress': start
+[23:23:09.181] [bmv2] [T] [thread 13998] [6.0] [cxt 0] Applying table 'ipv4_lpm'
+[23:23:09.181] [bmv2] [D] [thread 13998] [6.0] [cxt 0] Looking up key:
+* ipv4.dstAddr        : 00000000
+
+[23:23:09.182] [bmv2] [D] [thread 13998] [6.0] [cxt 0] Table 'ipv4_lpm': miss
+[23:23:09.182] [bmv2] [D] [thread 13998] [6.0] [cxt 0] Action entry is _drop - 
+[23:23:09.182] [bmv2] [T] [thread 13998] [6.0] [cxt 0] Action _drop
+[23:23:09.182] [bmv2] [T] [thread 13998] [6.0] [cxt 0] ip_forward.p4(93) Primitive mark_to_drop(standard_metadata)
+[23:23:09.182] [bmv2] [D] [thread 13998] [6.0] [cxt 0] Pipeline 'ingress': end
+[23:23:09.182] [bmv2] [D] [thread 13998] [6.0] [cxt 0] Egress port is 511
+[23:23:09.182] [bmv2] [D] [thread 13998] [6.0] [cxt 0] Dropping packet at the end of ingress
+[23:23:09.486] [bmv2] [D] [thread 13998] [7.0] [cxt 0] Processing packet received on port 2
+[23:23:09.486] [bmv2] [D] [thread 13998] [7.0] [cxt 0] Parser 'parser': start
+[23:23:09.486] [bmv2] [D] [thread 13998] [7.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:23:09.486] [bmv2] [D] [thread 13998] [7.0] [cxt 0] Parser state 'start' has no switch, going to default next state
+[23:23:09.486] [bmv2] [T] [thread 13998] [7.0] [cxt 0] Bytes parsed: 0
+[23:23:09.486] [bmv2] [D] [thread 13998] [7.0] [cxt 0] Parser 'parser' entering state 'parse_ethernet'
+[23:23:09.486] [bmv2] [D] [thread 13998] [7.0] [cxt 0] Extracting header 'ethernet'
+[23:23:09.486] [bmv2] [D] [thread 13998] [7.0] [cxt 0] Parser state 'parse_ethernet': key is 86dd
+[23:23:09.487] [bmv2] [T] [thread 13998] [7.0] [cxt 0] Bytes parsed: 14
+[23:23:09.487] [bmv2] [T] [thread 13998] [7.0] [cxt 0] Skipping checksum 'cksum_0' verification because target field invalid
+[23:23:09.487] [bmv2] [D] [thread 13998] [7.0] [cxt 0] Parser 'parser': end
+[23:23:09.487] [bmv2] [D] [thread 13998] [7.0] [cxt 0] Pipeline 'ingress': start
+[23:23:09.487] [bmv2] [T] [thread 13998] [7.0] [cxt 0] Applying table 'ipv4_lpm'
+[23:23:09.487] [bmv2] [D] [thread 13998] [7.0] [cxt 0] Looking up key:
+* ipv4.dstAddr        : 00000000
+
+[23:23:09.487] [bmv2] [D] [thread 13998] [7.0] [cxt 0] Table 'ipv4_lpm': miss
+[23:23:09.487] [bmv2] [D] [thread 13998] [7.0] [cxt 0] Action entry is _drop - 
+[23:23:09.487] [bmv2] [T] [thread 13998] [7.0] [cxt 0] Action _drop
+[23:23:09.487] [bmv2] [T] [thread 13998] [7.0] [cxt 0] ip_forward.p4(93) Primitive mark_to_drop(standard_metadata)
+[23:23:09.487] [bmv2] [D] [thread 13998] [7.0] [cxt 0] Pipeline 'ingress': end
+[23:23:09.488] [bmv2] [D] [thread 13998] [7.0] [cxt 0] Egress port is 511
+[23:23:09.488] [bmv2] [D] [thread 13998] [7.0] [cxt 0] Dropping packet at the end of ingress
+[23:23:09.862] [bmv2] [D] [thread 13998] [8.0] [cxt 0] Processing packet received on port 2
+[23:23:09.862] [bmv2] [D] [thread 13998] [8.0] [cxt 0] Parser 'parser': start
+[23:23:09.862] [bmv2] [D] [thread 13998] [8.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:23:09.862] [bmv2] [D] [thread 13998] [8.0] [cxt 0] Parser state 'start' has no switch, going to default next state
+[23:23:09.862] [bmv2] [T] [thread 13998] [8.0] [cxt 0] Bytes parsed: 0
+[23:23:09.862] [bmv2] [D] [thread 13998] [8.0] [cxt 0] Parser 'parser' entering state 'parse_ethernet'
+[23:23:09.862] [bmv2] [D] [thread 13998] [8.0] [cxt 0] Extracting header 'ethernet'
+[23:23:09.862] [bmv2] [D] [thread 13998] [8.0] [cxt 0] Parser state 'parse_ethernet': key is 86dd
+[23:23:09.862] [bmv2] [T] [thread 13998] [8.0] [cxt 0] Bytes parsed: 14
+[23:23:09.862] [bmv2] [T] [thread 13998] [8.0] [cxt 0] Skipping checksum 'cksum_0' verification because target field invalid
+[23:23:09.863] [bmv2] [D] [thread 13998] [8.0] [cxt 0] Parser 'parser': end
+[23:23:09.863] [bmv2] [D] [thread 13998] [8.0] [cxt 0] Pipeline 'ingress': start
+[23:23:09.863] [bmv2] [T] [thread 13998] [8.0] [cxt 0] Applying table 'ipv4_lpm'
+[23:23:09.863] [bmv2] [D] [thread 13998] [8.0] [cxt 0] Looking up key:
+* ipv4.dstAddr        : 00000000
+
+[23:23:09.863] [bmv2] [D] [thread 13998] [8.0] [cxt 0] Table 'ipv4_lpm': miss
+[23:23:09.863] [bmv2] [D] [thread 13998] [8.0] [cxt 0] Action entry is _drop - 
+[23:23:09.863] [bmv2] [T] [thread 13998] [8.0] [cxt 0] Action _drop
+[23:23:09.863] [bmv2] [T] [thread 13998] [8.0] [cxt 0] ip_forward.p4(93) Primitive mark_to_drop(standard_metadata)
+[23:23:09.863] [bmv2] [D] [thread 13998] [8.0] [cxt 0] Pipeline 'ingress': end
+[23:23:09.863] [bmv2] [D] [thread 13998] [8.0] [cxt 0] Egress port is 511
+[23:23:09.863] [bmv2] [D] [thread 13998] [8.0] [cxt 0] Dropping packet at the end of ingress
+[23:23:09.893] [bmv2] [D] [thread 13998] [9.0] [cxt 0] Processing packet received on port 1
+[23:23:09.893] [bmv2] [D] [thread 13998] [9.0] [cxt 0] Parser 'parser': start
+[23:23:09.893] [bmv2] [D] [thread 13998] [9.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:23:09.893] [bmv2] [D] [thread 13998] [9.0] [cxt 0] Parser state 'start' has no switch, going to default next state
+[23:23:09.893] [bmv2] [T] [thread 13998] [9.0] [cxt 0] Bytes parsed: 0
+[23:23:09.893] [bmv2] [D] [thread 13998] [9.0] [cxt 0] Parser 'parser' entering state 'parse_ethernet'
+[23:23:09.893] [bmv2] [D] [thread 13998] [9.0] [cxt 0] Extracting header 'ethernet'
+[23:23:09.893] [bmv2] [D] [thread 13998] [9.0] [cxt 0] Parser state 'parse_ethernet': key is 86dd
+[23:23:09.893] [bmv2] [T] [thread 13998] [9.0] [cxt 0] Bytes parsed: 14
+[23:23:09.893] [bmv2] [T] [thread 13998] [9.0] [cxt 0] Skipping checksum 'cksum_0' verification because target field invalid
+[23:23:09.893] [bmv2] [D] [thread 13998] [9.0] [cxt 0] Parser 'parser': end
+[23:23:09.893] [bmv2] [D] [thread 13998] [9.0] [cxt 0] Pipeline 'ingress': start
+[23:23:09.893] [bmv2] [T] [thread 13998] [9.0] [cxt 0] Applying table 'ipv4_lpm'
+[23:23:09.893] [bmv2] [D] [thread 13998] [9.0] [cxt 0] Looking up key:
+* ipv4.dstAddr        : 00000000
+
+[23:23:09.893] [bmv2] [D] [thread 13998] [9.0] [cxt 0] Table 'ipv4_lpm': miss
+[23:23:09.893] [bmv2] [D] [thread 13998] [9.0] [cxt 0] Action entry is _drop - 
+[23:23:09.893] [bmv2] [T] [thread 13998] [9.0] [cxt 0] Action _drop
+[23:23:09.893] [bmv2] [T] [thread 13998] [9.0] [cxt 0] ip_forward.p4(93) Primitive mark_to_drop(standard_metadata)
+[23:23:09.893] [bmv2] [D] [thread 13998] [9.0] [cxt 0] Pipeline 'ingress': end
+[23:23:09.893] [bmv2] [D] [thread 13998] [9.0] [cxt 0] Egress port is 511
+[23:23:09.893] [bmv2] [D] [thread 13998] [9.0] [cxt 0] Dropping packet at the end of ingress
+[23:23:09.978] [bmv2] [D] [thread 13998] [10.0] [cxt 0] Processing packet received on port 1
+[23:23:09.978] [bmv2] [D] [thread 13998] [10.0] [cxt 0] Parser 'parser': start
+[23:23:09.978] [bmv2] [D] [thread 13998] [10.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:23:09.978] [bmv2] [D] [thread 13998] [10.0] [cxt 0] Parser state 'start' has no switch, going to default next state
+[23:23:09.978] [bmv2] [T] [thread 13998] [10.0] [cxt 0] Bytes parsed: 0
+[23:23:09.978] [bmv2] [D] [thread 13998] [10.0] [cxt 0] Parser 'parser' entering state 'parse_ethernet'
+[23:23:09.978] [bmv2] [D] [thread 13998] [10.0] [cxt 0] Extracting header 'ethernet'
+[23:23:09.978] [bmv2] [D] [thread 13998] [10.0] [cxt 0] Parser state 'parse_ethernet': key is 86dd
+[23:23:09.978] [bmv2] [T] [thread 13998] [10.0] [cxt 0] Bytes parsed: 14
+[23:23:09.978] [bmv2] [T] [thread 13998] [10.0] [cxt 0] Skipping checksum 'cksum_0' verification because target field invalid
+[23:23:09.978] [bmv2] [D] [thread 13998] [10.0] [cxt 0] Parser 'parser': end
+[23:23:09.978] [bmv2] [D] [thread 13998] [10.0] [cxt 0] Pipeline 'ingress': start
+[23:23:09.978] [bmv2] [T] [thread 13998] [10.0] [cxt 0] Applying table 'ipv4_lpm'
+[23:23:09.978] [bmv2] [D] [thread 13998] [10.0] [cxt 0] Looking up key:
+* ipv4.dstAddr        : 00000000
+
+[23:23:09.978] [bmv2] [D] [thread 13998] [10.0] [cxt 0] Table 'ipv4_lpm': miss
+[23:23:09.978] [bmv2] [D] [thread 13998] [10.0] [cxt 0] Action entry is _drop - 
+[23:23:09.978] [bmv2] [T] [thread 13998] [10.0] [cxt 0] Action _drop
+[23:23:09.978] [bmv2] [T] [thread 13998] [10.0] [cxt 0] ip_forward.p4(93) Primitive mark_to_drop(standard_metadata)
+[23:23:09.978] [bmv2] [D] [thread 13998] [10.0] [cxt 0] Pipeline 'ingress': end
+[23:23:09.978] [bmv2] [D] [thread 13998] [10.0] [cxt 0] Egress port is 511
+[23:23:09.978] [bmv2] [D] [thread 13998] [10.0] [cxt 0] Dropping packet at the end of ingress
+[23:23:10.183] [bmv2] [D] [thread 13998] [11.0] [cxt 0] Processing packet received on port 2
+[23:23:10.183] [bmv2] [D] [thread 13998] [11.0] [cxt 0] Parser 'parser': start
+[23:23:10.183] [bmv2] [D] [thread 13998] [11.0] [cxt 0] Parser 'parser' entering state 'start'
+[23:23:10.183] [bmv2] [D] [thread 13998] [11.0] [cxt 0] Parser state 'start' has no switch, going to default next state
+[23:23:10.183] [bmv2] [T] [thread 13998] [11.0] [cxt 0] Bytes parsed: 0
+[23:23:10.183] [bmv2] [D] [thread 13998] [11.0] [cxt 0] Parser 'parser' entering state 'parse_ethernet'
+[23:23:10.183] [bmv2] [D] [thread 13998] [11.0] [cxt 0] Extracting header 'ethernet'
+[23:23:10.183] [bmv2] [D] [thread 13998] [11.0] [cxt 0] Parser state 'parse_ethernet': key is 86dd
+[23:23:10.183] [bmv2] [T] [thread 13998] [11.0] [cxt 0] Bytes parsed: 14
+[23:23:10.183] [bmv2] [T] [thread 13998] [11.0] [cxt 0] Skipping checksum 'cksum_0' verification because target field invalid
+[23:23:10.183] [bmv2] [D] [thread 13998] [11.0] [cxt 0] Parser 'parser': end
+[23:23:10.183] [bmv2] [D] [thread 13998] [11.0] [cxt 0] Pipeline 'ingress': start
+[23:23:10.183] [bmv2] [T] [thread 13998] [11.0] [cxt 0] Applying table 'ipv4_lpm'
+[23:23:10.183] [bmv2] [D] [thread 13998] [11.0] [cxt 0] Looking up key:
+* ipv4.dstAddr        : 00000000
+
+[23:23:10.183] [bmv2] [D] [thread 13998] [11.0] [cxt 0] Table 'ipv4_lpm': miss
+[23:23:10.183] [bmv2] [D] [thread 13998] [11.0] [cxt 0] Action entry is _drop - 
+[23:23:10.183] [bmv2] [T] [thread 13998] [11.0] [cxt 0] Action _drop
+[23:23:10.183] [bmv2] [T] [thread 13998] [11.0] [cxt 0] ip_forward.p4(93) Primitive mark_to_drop(standard_metadata)
+[23:23:10.183] [bmv2] [D] [thread 13998] [11.0] [cxt 0] Pipeline 'ingress': end
+[23:23:10.183] [bmv2] [D] [thread 13998] [11.0] [cxt 0] Egress port is 511
+[23:23:10.183] [bmv2] [D] [thread 13998] [11.0] [cxt 0] Dropping packet at the end of ingress
+[23:23:12.219] [bmv2] [T] [thread 14060] bm_get_config
+[23:23:12.222] [bmv2] [T] [thread 14060] bm_table_add_entry
+[23:23:12.222] [bmv2] [D] [thread 14060] Entry 0 added to table 'ipv4_lpm'
+[23:23:12.222] [bmv2] [D] [thread 14060] Dumping entry 0
+Match key:
+* ipv4.dstAddr        : LPM       0a000100/24
+Action entry: set_nhop - 100000001,1,
+
+[23:23:12.223] [bmv2] [T] [thread 14060] bm_table_add_entry
+[23:23:12.223] [bmv2] [D] [thread 14060] Entry 1 added to table 'ipv4_lpm'
+[23:23:12.223] [bmv2] [D] [thread 14060] Dumping entry 1
+Match key:
+* ipv4.dstAddr        : LPM       0a000400/24
+Action entry: set_nhop - 400000001,2,
+
+open: No such file or directory
+open: No such file or directory
+open: No such file or directory

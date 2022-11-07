@@ -53,6 +53,13 @@ header tcp_t{
     bit<16> urgentPtr;
 }
 
+header udp_t {
+    bit<16> srcPort;
+    bit<16> dstPort;
+    bit<16> length_;
+    bit<16> checksum;
+}
+
 struct metadata {
    bit<16> label;
   bit<32> register_index;
@@ -78,6 +85,7 @@ struct headers {
     ethernet_t   ethernet;
     ipv4_t       ipv4;
     tcp_t       tcp;
+	udp_t	udp;
 }
 
 /*************************************************************************
@@ -93,7 +101,8 @@ parser MyParser(packet_in packet,
         transition parse_ethernet;
     }
 
-    state parse_ethernet {
+  state parse_ethernet {
+
         packet.extract(hdr.ethernet);
         transition select(hdr.ethernet.etherType) {
             TYPE_IPV4: parse_ipv4;
@@ -103,6 +112,20 @@ parser MyParser(packet_in packet,
 
     state parse_ipv4 {
         packet.extract(hdr.ipv4);
+         transition select(hdr.ipv4.protocol) {
+             6: parse_tcp;
+	        17: parse_udp;
+            default: accept;
+    }
+    }
+
+    state parse_tcp {
+        packet.extract(hdr.tcp);
+        transition accept;
+    }
+
+    state parse_udp {
+        packet.extract(hdr.udp);
         transition accept;
     }
 
@@ -135,6 +158,7 @@ control MyIngress(inout headers hdr,
  	register<bit<32>>(100) reg_dst2src_bytes;   
 	register<bit<32>>(100) reg_src2dst_bytes;
 	register<bit<32>>(100) reg_bidirectional_pkt;
+	register<bit<32>> (100) reg_feature;
 
 	//test
 	register<bit<1>>(3) reg_syn_value;
@@ -229,15 +253,19 @@ control MyIngress(inout headers hdr,
 	//XX For rate comparisons 'th' is multiplied by time delta as division is not allowed
 
 	bit<32> feature = 0;
-	bit<16> f=f_id+1;
+	bit<16> f=f_id;
         bit<32> th=constant_th;//type error, contant_th can not be an assignment to calculate 
+	//reg_feature.write((bit<32>)meta.node_id, (bit<32>)f);//check whether the node is right
 
 	if (f == 1) {
 		
 	    feature = meta.syn_pkt;
+		
 	}
 	else if (f == 2) {
 	  feature = meta.dst2src_max_ps;
+
+
 	}
 	//else if (f == 3) {
 	   // feature = meta.bidirectional_bytes;
@@ -252,11 +280,12 @@ control MyIngress(inout headers hdr,
 
 	if (feature <= th) meta.isTrue = 1;
 	else meta.isTrue = 0;
-
-	//meta.prevFeature = f - 1;
-   	 meta.feature_id=f-1;
+	//reg_feature.write((bit<32>)meta.node_id, (bit<32>)feature);//check the value
+	//meta.feature = f - 1;
+   	 meta.feature_id=f;
 	meta.node_id = node_id;//same with the output side
-    }
+ 	//reg_feature.write((bit<32>)meta.feature_id, (bit<32>)meta.node_id);
+ }
 
     action SetDirection() {
 
@@ -369,19 +398,16 @@ control MyIngress(inout headers hdr,
     }
     
     apply {
-	reg_syn_value.read(hdr.tcp_t.syn, 0);
+	
         direction.apply();
-	reg_packet_length.read(standard_metadata_t.packet_length, 0);
-	reg_egress.read(standard_metadata.egress_spec, 0);
-	reg_output.read(standard_metadata.egress_port, 0);
-	reg_time.read(standard_metadata.ingress_global_timestamp, 0);
-
+	
+/*
 	reg_syn_value.write(0, hdr.tcp.syn);
 	reg_packet_length.write(0, standard_metadata.packet_length);
 	reg_egress.write(0, standard_metadata.egress_spec);
 	reg_output.write(0, standard_metadata.egress_port);
 	reg_time.write(0, standard_metadata.ingress_global_timestamp);
-	
+*/	
         if (hdr.ipv4.isValid()) {
 	  if(meta.direction ==1){
 	 	

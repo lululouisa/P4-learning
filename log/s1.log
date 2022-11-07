@@ -1,955 +1,1413 @@
 Calling target program-options parser
-[11:27:06.652] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic372': basic372 - 
-[11:27:06.652] [bmv2] [D] [thread 7455] Set default default entry for table 'MyIngress.direction': NoAction - 
-[11:27:06.652] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic374': basic374 - 
-[11:27:06.652] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_get_register_index': MyIngress.get_register_index - 
-[11:27:06.652] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic392': basic392 - 
-[11:27:06.652] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic394': basic394 - 
-[11:27:06.652] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_init_register': MyIngress.init_register - 
-[11:27:06.652] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic399': basic399 - 
-[11:27:06.652] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic403': basic403 - 
-[11:27:06.652] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_syn_update': MyIngress.syn_update - 
-[11:27:06.652] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic412': basic412 - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_src2dst_max_ps_update': MyIngress.src2dst_max_ps_update - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic420': basic420 - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_src2dst_pkt_update': MyIngress.src2dst_pkt_update - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic423': basic423 - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_src2dst_bytes_update': MyIngress.src2dst_bytes_update - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic428': basic428 - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_get_register_index_inverse': MyIngress.get_register_index_inverse - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic435': basic435 - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic439': basic439 - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic442': basic442 - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic445': basic445 - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_dst2src_bytes_update': MyIngress.dst2src_bytes_update - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic448': basic448 - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_dst2src_pkt_update': MyIngress.dst2src_pkt_update - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic454': basic454 - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_dst2src_max_ps_update': MyIngress.dst2src_max_ps_update - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic464': basic464 - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'tbl_basic468': basic468 - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'MyIngress.layer1': MyIngress.drop - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'MyIngress.layer2': MyIngress.drop - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'MyIngress.layer3': MyIngress.drop - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'MyIngress.layer4': MyIngress.drop - 
-[11:27:06.653] [bmv2] [D] [thread 7455] Set default default entry for table 'MyIngress.ipv4_classifier': NoAction - 
+[20:38:14.488] [bmv2] [D] [thread 12759] Set default default entry for table 'MyIngress.direction': NoAction - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic405': basic405 - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_get_register_index': MyIngress.get_register_index - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic418': basic418 - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic420': basic420 - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_init_register': MyIngress.init_register - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic425': basic425 - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic429': basic429 - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_syn_update': MyIngress.syn_update - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic438': basic438 - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_src2dst_max_ps_update': MyIngress.src2dst_max_ps_update - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic446': basic446 - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_src2dst_pkt_update': MyIngress.src2dst_pkt_update - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic449': basic449 - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_src2dst_bytes_update': MyIngress.src2dst_bytes_update - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic454': basic454 - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_get_register_index_inverse': MyIngress.get_register_index_inverse - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic461': basic461 - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic465': basic465 - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic468': basic468 - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic471': basic471 - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_dst2src_bytes_update': MyIngress.dst2src_bytes_update - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic474': basic474 - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_dst2src_pkt_update': MyIngress.dst2src_pkt_update - 
+[20:38:14.489] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic480': basic480 - 
+[20:38:14.490] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_dst2src_max_ps_update': MyIngress.dst2src_max_ps_update - 
+[20:38:14.490] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic490': basic490 - 
+[20:38:14.490] [bmv2] [D] [thread 12759] Set default default entry for table 'tbl_basic494': basic494 - 
+[20:38:14.490] [bmv2] [D] [thread 12759] Set default default entry for table 'MyIngress.layer1': MyIngress.drop - 
+[20:38:14.490] [bmv2] [D] [thread 12759] Set default default entry for table 'MyIngress.layer2': MyIngress.drop - 
+[20:38:14.490] [bmv2] [D] [thread 12759] Set default default entry for table 'MyIngress.layer3': MyIngress.drop - 
+[20:38:14.490] [bmv2] [D] [thread 12759] Set default default entry for table 'MyIngress.layer4': MyIngress.drop - 
+[20:38:14.490] [bmv2] [D] [thread 12759] Set default default entry for table 'MyIngress.ipv4_classifier': NoAction - 
 Adding interface s1-eth1 as port 1
-[11:27:06.681] [bmv2] [D] [thread 7455] Adding interface s1-eth1 as port 1
+[20:38:14.534] [bmv2] [D] [thread 12759] Adding interface s1-eth1 as port 1
 Adding interface s1-eth2 as port 2
-[11:27:06.699] [bmv2] [D] [thread 7455] Adding interface s1-eth2 as port 2
-[11:27:06.727] [bmv2] [I] [thread 7455] Starting Thrift server on port 9090
-[11:27:06.728] [bmv2] [I] [thread 7455] Thrift server was started
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Processing packet received on port 2
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Parser 'parser': start
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Parser 'parser' entering state 'start'
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Extracting header 'ethernet'
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Parser state 'start': key is 86dd
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Bytes parsed: 14
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Parser 'parser': end
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Pipeline 'ingress': start
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Applying table 'tbl_basic372'
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Looking up key:
-
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Table 'tbl_basic372': miss
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Action entry is basic372 - 
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Action basic372
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] basic.p4(372) Primitive reg_syn_value.read(hdr.tcp.syn, 0)
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Read register 'MyIngress.reg_syn_value' at index 0 read value 0
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Applying table 'MyIngress.direction'
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Looking up key:
+[20:38:14.569] [bmv2] [D] [thread 12759] Adding interface s1-eth2 as port 2
+[20:38:14.606] [bmv2] [I] [thread 12759] Starting Thrift server on port 9090
+[20:38:14.606] [bmv2] [I] [thread 12759] Thrift server was started
+[20:38:14.695] [bmv2] [D] [thread 12780] [0.0] [cxt 0] Processing packet received on port 2
+[20:38:14.695] [bmv2] [D] [thread 12780] [0.0] [cxt 0] Parser 'parser': start
+[20:38:14.695] [bmv2] [D] [thread 12780] [0.0] [cxt 0] Parser 'parser' entering state 'start'
+[20:38:14.695] [bmv2] [D] [thread 12780] [0.0] [cxt 0] Extracting header 'ethernet'
+[20:38:14.695] [bmv2] [D] [thread 12780] [0.0] [cxt 0] Parser state 'start': key is 86dd
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] Bytes parsed: 14
+[20:38:14.695] [bmv2] [D] [thread 12780] [0.0] [cxt 0] Parser 'parser': end
+[20:38:14.695] [bmv2] [D] [thread 12780] [0.0] [cxt 0] Pipeline 'ingress': start
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] Applying table 'MyIngress.direction'
+[20:38:14.695] [bmv2] [D] [thread 12780] [0.0] [cxt 0] Looking up key:
 * standard_metadata.ingress_port: 0002
 
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Table 'MyIngress.direction': miss
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Action entry is NoAction - 
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Action NoAction
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Applying table 'tbl_basic374'
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Looking up key:
+[20:38:14.695] [bmv2] [D] [thread 12780] [0.0] [cxt 0] Table 'MyIngress.direction': miss
+[20:38:14.695] [bmv2] [D] [thread 12780] [0.0] [cxt 0] Action entry is NoAction - 
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] Action NoAction
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] Applying table 'tbl_basic405'
+[20:38:14.695] [bmv2] [D] [thread 12780] [0.0] [cxt 0] Looking up key:
 
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Table 'tbl_basic374': miss
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Action entry is basic374 - 
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Action basic374
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] basic.p4(374) Primitive reg_packet_length.read(standard_metadata.packet_length, 0)
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Read register 'MyIngress.reg_packet_length' at index 0 read value 0
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] basic.p4(375) Primitive reg_egress.read(standard_metadata.egress_spec, 0)
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Read register 'MyIngress.reg_egress' at index 0 read value 0
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] basic.p4(376) Primitive reg_output.read(standard_metadata.egress_port, 0)
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Read register 'MyIngress.reg_output' at index 0 read value 0
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] basic.p4(377) Primitive reg_time.read(standard_metadata.ingress_global_timestamp, 0)
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Read register 'MyIngress.reg_time' at index 0 read value 0
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] basic.p4(379) Primitive reg_syn_value.write(0, hdr.tcp.syn)
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 0
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] basic.p4(380) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 0
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] basic.p4(381) Primitive reg_egress.write(0, standard_metadata.egress_spec)
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] basic.p4(382) Primitive reg_output.write(0, standard_metadata.egress_port)
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] basic.p4(383) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 0
-[11:27:06.936] [bmv2] [T] [thread 7482] [0.0] [cxt 0] basic.p4(385) Condition "hdr.ipv4.isValid()" (node_5) is false
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Pipeline 'ingress': end
-[11:27:06.936] [bmv2] [D] [thread 7482] [0.0] [cxt 0] Egress port is 0
-[11:27:06.936] [bmv2] [D] [thread 7483] [0.0] [cxt 0] Pipeline 'egress': start
-[11:27:06.936] [bmv2] [D] [thread 7483] [0.0] [cxt 0] Pipeline 'egress': end
-[11:27:06.936] [bmv2] [D] [thread 7483] [0.0] [cxt 0] Deparser 'deparser': start
-[11:27:06.936] [bmv2] [T] [thread 7483] [0.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
-[11:27:06.936] [bmv2] [D] [thread 7483] [0.0] [cxt 0] Deparsing header 'ethernet'
-[11:27:06.936] [bmv2] [D] [thread 7483] [0.0] [cxt 0] Deparser 'deparser': end
-[11:27:06.937] [bmv2] [D] [thread 7487] [0.0] [cxt 0] Transmitting packet of size 78 out of port 0
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Processing packet received on port 1
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Parser 'parser': start
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Parser 'parser' entering state 'start'
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Extracting header 'ethernet'
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Parser state 'start': key is 86dd
-[11:27:06.951] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Bytes parsed: 14
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Parser 'parser': end
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Pipeline 'ingress': start
-[11:27:06.951] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Applying table 'tbl_basic372'
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Looking up key:
-
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Table 'tbl_basic372': miss
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Action entry is basic372 - 
-[11:27:06.951] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Action basic372
-[11:27:06.951] [bmv2] [T] [thread 7482] [1.0] [cxt 0] basic.p4(372) Primitive reg_syn_value.read(hdr.tcp.syn, 0)
-[11:27:06.951] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Read register 'MyIngress.reg_syn_value' at index 0 read value 0
-[11:27:06.951] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Applying table 'MyIngress.direction'
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Looking up key:
-* standard_metadata.ingress_port: 0001
-
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Table 'MyIngress.direction': miss
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Action entry is NoAction - 
-[11:27:06.951] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Action NoAction
-[11:27:06.951] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Applying table 'tbl_basic374'
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Looking up key:
-
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Table 'tbl_basic374': miss
-[11:27:06.951] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Action entry is basic374 - 
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Action basic374
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] basic.p4(374) Primitive reg_packet_length.read(standard_metadata.packet_length, 0)
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Read register 'MyIngress.reg_packet_length' at index 0 read value 0
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] basic.p4(375) Primitive reg_egress.read(standard_metadata.egress_spec, 0)
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Read register 'MyIngress.reg_egress' at index 0 read value 0
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] basic.p4(376) Primitive reg_output.read(standard_metadata.egress_port, 0)
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Read register 'MyIngress.reg_output' at index 0 read value 0
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] basic.p4(377) Primitive reg_time.read(standard_metadata.ingress_global_timestamp, 0)
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Read register 'MyIngress.reg_time' at index 0 read value 0
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] basic.p4(379) Primitive reg_syn_value.write(0, hdr.tcp.syn)
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 0
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] basic.p4(380) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 0
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] basic.p4(381) Primitive reg_egress.write(0, standard_metadata.egress_spec)
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] basic.p4(382) Primitive reg_output.write(0, standard_metadata.egress_port)
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] basic.p4(383) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 0
-[11:27:06.952] [bmv2] [T] [thread 7482] [1.0] [cxt 0] basic.p4(385) Condition "hdr.ipv4.isValid()" (node_5) is false
-[11:27:06.952] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Pipeline 'ingress': end
-[11:27:06.952] [bmv2] [D] [thread 7482] [1.0] [cxt 0] Egress port is 0
-[11:27:06.952] [bmv2] [D] [thread 7483] [1.0] [cxt 0] Pipeline 'egress': start
-[11:27:06.952] [bmv2] [D] [thread 7483] [1.0] [cxt 0] Pipeline 'egress': end
-[11:27:06.952] [bmv2] [D] [thread 7483] [1.0] [cxt 0] Deparser 'deparser': start
-[11:27:06.952] [bmv2] [T] [thread 7483] [1.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
-[11:27:06.952] [bmv2] [D] [thread 7483] [1.0] [cxt 0] Deparsing header 'ethernet'
-[11:27:06.952] [bmv2] [D] [thread 7483] [1.0] [cxt 0] Deparser 'deparser': end
-[11:27:06.952] [bmv2] [D] [thread 7487] [1.0] [cxt 0] Transmitting packet of size 90 out of port 0
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Processing packet received on port 2
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Parser 'parser': start
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Parser 'parser' entering state 'start'
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Extracting header 'ethernet'
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Parser state 'start': key is 86dd
-[11:27:07.019] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Bytes parsed: 14
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Parser 'parser': end
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Pipeline 'ingress': start
-[11:27:07.019] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Applying table 'tbl_basic372'
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Looking up key:
-
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Table 'tbl_basic372': miss
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Action entry is basic372 - 
-[11:27:07.019] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Action basic372
-[11:27:07.019] [bmv2] [T] [thread 7482] [2.0] [cxt 0] basic.p4(372) Primitive reg_syn_value.read(hdr.tcp.syn, 0)
-[11:27:07.019] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Read register 'MyIngress.reg_syn_value' at index 0 read value 0
-[11:27:07.019] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Applying table 'MyIngress.direction'
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Looking up key:
+[20:38:14.695] [bmv2] [D] [thread 12780] [0.0] [cxt 0] Table 'tbl_basic405': miss
+[20:38:14.695] [bmv2] [D] [thread 12780] [0.0] [cxt 0] Action entry is basic405 - 
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] Action basic405
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] basic.p4(405) Primitive reg_syn_value.write(0, hdr.tcp.syn)
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 0
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] basic.p4(406) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 90
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] basic.p4(407) Primitive reg_egress.write(0, standard_metadata.egress_spec)
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] basic.p4(408) Primitive reg_output.write(0, standard_metadata.egress_port)
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] basic.p4(409) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 279299
+[20:38:14.695] [bmv2] [T] [thread 12780] [0.0] [cxt 0] basic.p4(411) Condition "hdr.ipv4.isValid()" (node_4) is false
+[20:38:14.695] [bmv2] [D] [thread 12780] [0.0] [cxt 0] Pipeline 'ingress': end
+[20:38:14.695] [bmv2] [D] [thread 12780] [0.0] [cxt 0] Egress port is 0
+[20:38:14.696] [bmv2] [D] [thread 12781] [0.0] [cxt 0] Pipeline 'egress': start
+[20:38:14.696] [bmv2] [D] [thread 12781] [0.0] [cxt 0] Pipeline 'egress': end
+[20:38:14.696] [bmv2] [D] [thread 12781] [0.0] [cxt 0] Deparser 'deparser': start
+[20:38:14.696] [bmv2] [T] [thread 12781] [0.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[20:38:14.696] [bmv2] [D] [thread 12781] [0.0] [cxt 0] Deparsing header 'ethernet'
+[20:38:14.696] [bmv2] [D] [thread 12781] [0.0] [cxt 0] Deparser 'deparser': end
+[20:38:14.696] [bmv2] [D] [thread 12785] [0.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[20:38:14.882] [bmv2] [D] [thread 12780] [1.0] [cxt 0] Processing packet received on port 2
+[20:38:14.882] [bmv2] [D] [thread 12780] [1.0] [cxt 0] Parser 'parser': start
+[20:38:14.882] [bmv2] [D] [thread 12780] [1.0] [cxt 0] Parser 'parser' entering state 'start'
+[20:38:14.882] [bmv2] [D] [thread 12780] [1.0] [cxt 0] Extracting header 'ethernet'
+[20:38:14.882] [bmv2] [D] [thread 12780] [1.0] [cxt 0] Parser state 'start': key is 86dd
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] Bytes parsed: 14
+[20:38:14.882] [bmv2] [D] [thread 12780] [1.0] [cxt 0] Parser 'parser': end
+[20:38:14.882] [bmv2] [D] [thread 12780] [1.0] [cxt 0] Pipeline 'ingress': start
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] Applying table 'MyIngress.direction'
+[20:38:14.882] [bmv2] [D] [thread 12780] [1.0] [cxt 0] Looking up key:
 * standard_metadata.ingress_port: 0002
 
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Table 'MyIngress.direction': miss
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Action entry is NoAction - 
-[11:27:07.019] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Action NoAction
-[11:27:07.019] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Applying table 'tbl_basic374'
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Looking up key:
+[20:38:14.882] [bmv2] [D] [thread 12780] [1.0] [cxt 0] Table 'MyIngress.direction': miss
+[20:38:14.882] [bmv2] [D] [thread 12780] [1.0] [cxt 0] Action entry is NoAction - 
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] Action NoAction
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] Applying table 'tbl_basic405'
+[20:38:14.882] [bmv2] [D] [thread 12780] [1.0] [cxt 0] Looking up key:
 
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Table 'tbl_basic374': miss
-[11:27:07.019] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Action entry is basic374 - 
-[11:27:07.019] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Action basic374
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] basic.p4(374) Primitive reg_packet_length.read(standard_metadata.packet_length, 0)
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Read register 'MyIngress.reg_packet_length' at index 0 read value 0
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] basic.p4(375) Primitive reg_egress.read(standard_metadata.egress_spec, 0)
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Read register 'MyIngress.reg_egress' at index 0 read value 0
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] basic.p4(376) Primitive reg_output.read(standard_metadata.egress_port, 0)
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Read register 'MyIngress.reg_output' at index 0 read value 0
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] basic.p4(377) Primitive reg_time.read(standard_metadata.ingress_global_timestamp, 0)
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Read register 'MyIngress.reg_time' at index 0 read value 0
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] basic.p4(379) Primitive reg_syn_value.write(0, hdr.tcp.syn)
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 0
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] basic.p4(380) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 0
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] basic.p4(381) Primitive reg_egress.write(0, standard_metadata.egress_spec)
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] basic.p4(382) Primitive reg_output.write(0, standard_metadata.egress_port)
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] basic.p4(383) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 0
-[11:27:07.020] [bmv2] [T] [thread 7482] [2.0] [cxt 0] basic.p4(385) Condition "hdr.ipv4.isValid()" (node_5) is false
-[11:27:07.020] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Pipeline 'ingress': end
-[11:27:07.020] [bmv2] [D] [thread 7482] [2.0] [cxt 0] Egress port is 0
-[11:27:07.020] [bmv2] [D] [thread 7483] [2.0] [cxt 0] Pipeline 'egress': start
-[11:27:07.020] [bmv2] [D] [thread 7483] [2.0] [cxt 0] Pipeline 'egress': end
-[11:27:07.020] [bmv2] [D] [thread 7483] [2.0] [cxt 0] Deparser 'deparser': start
-[11:27:07.020] [bmv2] [T] [thread 7483] [2.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
-[11:27:07.020] [bmv2] [D] [thread 7483] [2.0] [cxt 0] Deparsing header 'ethernet'
-[11:27:07.020] [bmv2] [D] [thread 7483] [2.0] [cxt 0] Deparser 'deparser': end
-[11:27:07.020] [bmv2] [D] [thread 7487] [2.0] [cxt 0] Transmitting packet of size 90 out of port 0
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Processing packet received on port 1
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Parser 'parser': start
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Parser 'parser' entering state 'start'
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Extracting header 'ethernet'
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Parser state 'start': key is 86dd
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Bytes parsed: 14
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Parser 'parser': end
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Pipeline 'ingress': start
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Applying table 'tbl_basic372'
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Looking up key:
-
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Table 'tbl_basic372': miss
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Action entry is basic372 - 
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Action basic372
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] basic.p4(372) Primitive reg_syn_value.read(hdr.tcp.syn, 0)
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Read register 'MyIngress.reg_syn_value' at index 0 read value 0
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Applying table 'MyIngress.direction'
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Looking up key:
+[20:38:14.882] [bmv2] [D] [thread 12780] [1.0] [cxt 0] Table 'tbl_basic405': miss
+[20:38:14.882] [bmv2] [D] [thread 12780] [1.0] [cxt 0] Action entry is basic405 - 
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] Action basic405
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] basic.p4(405) Primitive reg_syn_value.write(0, hdr.tcp.syn)
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 0
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] basic.p4(406) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 78
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] basic.p4(407) Primitive reg_egress.write(0, standard_metadata.egress_spec)
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] basic.p4(408) Primitive reg_output.write(0, standard_metadata.egress_port)
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] basic.p4(409) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 466429
+[20:38:14.882] [bmv2] [T] [thread 12780] [1.0] [cxt 0] basic.p4(411) Condition "hdr.ipv4.isValid()" (node_4) is false
+[20:38:14.882] [bmv2] [D] [thread 12780] [1.0] [cxt 0] Pipeline 'ingress': end
+[20:38:14.882] [bmv2] [D] [thread 12780] [1.0] [cxt 0] Egress port is 0
+[20:38:14.882] [bmv2] [D] [thread 12781] [1.0] [cxt 0] Pipeline 'egress': start
+[20:38:14.882] [bmv2] [D] [thread 12781] [1.0] [cxt 0] Pipeline 'egress': end
+[20:38:14.882] [bmv2] [D] [thread 12781] [1.0] [cxt 0] Deparser 'deparser': start
+[20:38:14.882] [bmv2] [T] [thread 12781] [1.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[20:38:14.883] [bmv2] [D] [thread 12781] [1.0] [cxt 0] Deparsing header 'ethernet'
+[20:38:14.883] [bmv2] [D] [thread 12781] [1.0] [cxt 0] Deparser 'deparser': end
+[20:38:14.883] [bmv2] [D] [thread 12785] [1.0] [cxt 0] Transmitting packet of size 78 out of port 0
+[20:38:15.117] [bmv2] [D] [thread 12780] [2.0] [cxt 0] Processing packet received on port 1
+[20:38:15.117] [bmv2] [D] [thread 12780] [2.0] [cxt 0] Parser 'parser': start
+[20:38:15.117] [bmv2] [D] [thread 12780] [2.0] [cxt 0] Parser 'parser' entering state 'start'
+[20:38:15.117] [bmv2] [D] [thread 12780] [2.0] [cxt 0] Extracting header 'ethernet'
+[20:38:15.117] [bmv2] [D] [thread 12780] [2.0] [cxt 0] Parser state 'start': key is 86dd
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] Bytes parsed: 14
+[20:38:15.117] [bmv2] [D] [thread 12780] [2.0] [cxt 0] Parser 'parser': end
+[20:38:15.117] [bmv2] [D] [thread 12780] [2.0] [cxt 0] Pipeline 'ingress': start
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] Applying table 'MyIngress.direction'
+[20:38:15.117] [bmv2] [D] [thread 12780] [2.0] [cxt 0] Looking up key:
 * standard_metadata.ingress_port: 0001
 
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Table 'MyIngress.direction': miss
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Action entry is NoAction - 
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Action NoAction
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Applying table 'tbl_basic374'
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Looking up key:
+[20:38:15.117] [bmv2] [D] [thread 12780] [2.0] [cxt 0] Table 'MyIngress.direction': miss
+[20:38:15.117] [bmv2] [D] [thread 12780] [2.0] [cxt 0] Action entry is NoAction - 
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] Action NoAction
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] Applying table 'tbl_basic405'
+[20:38:15.117] [bmv2] [D] [thread 12780] [2.0] [cxt 0] Looking up key:
 
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Table 'tbl_basic374': miss
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Action entry is basic374 - 
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Action basic374
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] basic.p4(374) Primitive reg_packet_length.read(standard_metadata.packet_length, 0)
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Read register 'MyIngress.reg_packet_length' at index 0 read value 0
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] basic.p4(375) Primitive reg_egress.read(standard_metadata.egress_spec, 0)
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Read register 'MyIngress.reg_egress' at index 0 read value 0
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] basic.p4(376) Primitive reg_output.read(standard_metadata.egress_port, 0)
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Read register 'MyIngress.reg_output' at index 0 read value 0
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] basic.p4(377) Primitive reg_time.read(standard_metadata.ingress_global_timestamp, 0)
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Read register 'MyIngress.reg_time' at index 0 read value 0
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] basic.p4(379) Primitive reg_syn_value.write(0, hdr.tcp.syn)
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 0
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] basic.p4(380) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 0
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] basic.p4(381) Primitive reg_egress.write(0, standard_metadata.egress_spec)
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] basic.p4(382) Primitive reg_output.write(0, standard_metadata.egress_port)
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] basic.p4(383) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 0
-[11:27:07.155] [bmv2] [T] [thread 7482] [3.0] [cxt 0] basic.p4(385) Condition "hdr.ipv4.isValid()" (node_5) is false
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Pipeline 'ingress': end
-[11:27:07.155] [bmv2] [D] [thread 7482] [3.0] [cxt 0] Egress port is 0
-[11:27:07.155] [bmv2] [D] [thread 7483] [3.0] [cxt 0] Pipeline 'egress': start
-[11:27:07.155] [bmv2] [D] [thread 7483] [3.0] [cxt 0] Pipeline 'egress': end
-[11:27:07.156] [bmv2] [D] [thread 7483] [3.0] [cxt 0] Deparser 'deparser': start
-[11:27:07.156] [bmv2] [T] [thread 7483] [3.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
-[11:27:07.156] [bmv2] [D] [thread 7483] [3.0] [cxt 0] Deparsing header 'ethernet'
-[11:27:07.156] [bmv2] [D] [thread 7483] [3.0] [cxt 0] Deparser 'deparser': end
-[11:27:07.156] [bmv2] [D] [thread 7487] [3.0] [cxt 0] Transmitting packet of size 78 out of port 0
-[11:27:08.745] [bmv2] [T] [thread 7709] bm_get_config
-[11:27:08.757] [bmv2] [T] [thread 7709] bm_table_add_entry
-[11:27:08.757] [bmv2] [D] [thread 7709] Entry 0 added to table 'MyIngress.direction'
-[11:27:08.757] [bmv2] [D] [thread 7709] Dumping entry 0
+[20:38:15.117] [bmv2] [D] [thread 12780] [2.0] [cxt 0] Table 'tbl_basic405': miss
+[20:38:15.117] [bmv2] [D] [thread 12780] [2.0] [cxt 0] Action entry is basic405 - 
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] Action basic405
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] basic.p4(405) Primitive reg_syn_value.write(0, hdr.tcp.syn)
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 0
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] basic.p4(406) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 90
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] basic.p4(407) Primitive reg_egress.write(0, standard_metadata.egress_spec)
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] basic.p4(408) Primitive reg_output.write(0, standard_metadata.egress_port)
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] basic.p4(409) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 700688
+[20:38:15.117] [bmv2] [T] [thread 12780] [2.0] [cxt 0] basic.p4(411) Condition "hdr.ipv4.isValid()" (node_4) is false
+[20:38:15.117] [bmv2] [D] [thread 12780] [2.0] [cxt 0] Pipeline 'ingress': end
+[20:38:15.117] [bmv2] [D] [thread 12780] [2.0] [cxt 0] Egress port is 0
+[20:38:15.117] [bmv2] [D] [thread 12780] [3.0] [cxt 0] Processing packet received on port 1
+[20:38:15.117] [bmv2] [D] [thread 12780] [3.0] [cxt 0] Parser 'parser': start
+[20:38:15.117] [bmv2] [D] [thread 12780] [3.0] [cxt 0] Parser 'parser' entering state 'start'
+[20:38:15.117] [bmv2] [D] [thread 12780] [3.0] [cxt 0] Extracting header 'ethernet'
+[20:38:15.118] [bmv2] [D] [thread 12780] [3.0] [cxt 0] Parser state 'start': key is 86dd
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] Bytes parsed: 14
+[20:38:15.118] [bmv2] [D] [thread 12780] [3.0] [cxt 0] Parser 'parser': end
+[20:38:15.118] [bmv2] [D] [thread 12780] [3.0] [cxt 0] Pipeline 'ingress': start
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] Applying table 'MyIngress.direction'
+[20:38:15.118] [bmv2] [D] [thread 12780] [3.0] [cxt 0] Looking up key:
+* standard_metadata.ingress_port: 0001
+
+[20:38:15.118] [bmv2] [D] [thread 12780] [3.0] [cxt 0] Table 'MyIngress.direction': miss
+[20:38:15.118] [bmv2] [D] [thread 12780] [3.0] [cxt 0] Action entry is NoAction - 
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] Action NoAction
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] Applying table 'tbl_basic405'
+[20:38:15.118] [bmv2] [D] [thread 12780] [3.0] [cxt 0] Looking up key:
+
+[20:38:15.118] [bmv2] [D] [thread 12780] [3.0] [cxt 0] Table 'tbl_basic405': miss
+[20:38:15.118] [bmv2] [D] [thread 12780] [3.0] [cxt 0] Action entry is basic405 - 
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] Action basic405
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] basic.p4(405) Primitive reg_syn_value.write(0, hdr.tcp.syn)
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 0
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] basic.p4(406) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 70
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] basic.p4(407) Primitive reg_egress.write(0, standard_metadata.egress_spec)
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] basic.p4(408) Primitive reg_output.write(0, standard_metadata.egress_port)
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] basic.p4(409) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 701365
+[20:38:15.118] [bmv2] [T] [thread 12780] [3.0] [cxt 0] basic.p4(411) Condition "hdr.ipv4.isValid()" (node_4) is false
+[20:38:15.118] [bmv2] [D] [thread 12780] [3.0] [cxt 0] Pipeline 'ingress': end
+[20:38:15.118] [bmv2] [D] [thread 12780] [3.0] [cxt 0] Egress port is 0
+[20:38:15.118] [bmv2] [D] [thread 12781] [2.0] [cxt 0] Pipeline 'egress': start
+[20:38:15.118] [bmv2] [D] [thread 12781] [2.0] [cxt 0] Pipeline 'egress': end
+[20:38:15.118] [bmv2] [D] [thread 12781] [2.0] [cxt 0] Deparser 'deparser': start
+[20:38:15.118] [bmv2] [T] [thread 12781] [2.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[20:38:15.118] [bmv2] [D] [thread 12781] [2.0] [cxt 0] Deparsing header 'ethernet'
+[20:38:15.118] [bmv2] [D] [thread 12781] [2.0] [cxt 0] Deparser 'deparser': end
+[20:38:15.118] [bmv2] [D] [thread 12781] [3.0] [cxt 0] Pipeline 'egress': start
+[20:38:15.118] [bmv2] [D] [thread 12781] [3.0] [cxt 0] Pipeline 'egress': end
+[20:38:15.118] [bmv2] [D] [thread 12781] [3.0] [cxt 0] Deparser 'deparser': start
+[20:38:15.118] [bmv2] [T] [thread 12781] [3.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[20:38:15.118] [bmv2] [D] [thread 12781] [3.0] [cxt 0] Deparsing header 'ethernet'
+[20:38:15.118] [bmv2] [D] [thread 12781] [3.0] [cxt 0] Deparser 'deparser': end
+[20:38:15.118] [bmv2] [D] [thread 12785] [2.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[20:38:15.119] [bmv2] [D] [thread 12785] [3.0] [cxt 0] Transmitting packet of size 70 out of port 0
+[20:38:15.122] [bmv2] [D] [thread 12780] [4.0] [cxt 0] Processing packet received on port 1
+[20:38:15.122] [bmv2] [D] [thread 12780] [4.0] [cxt 0] Parser 'parser': start
+[20:38:15.122] [bmv2] [D] [thread 12780] [4.0] [cxt 0] Parser 'parser' entering state 'start'
+[20:38:15.122] [bmv2] [D] [thread 12780] [4.0] [cxt 0] Extracting header 'ethernet'
+[20:38:15.122] [bmv2] [D] [thread 12780] [4.0] [cxt 0] Parser state 'start': key is 86dd
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] Bytes parsed: 14
+[20:38:15.122] [bmv2] [D] [thread 12780] [4.0] [cxt 0] Parser 'parser': end
+[20:38:15.122] [bmv2] [D] [thread 12780] [4.0] [cxt 0] Pipeline 'ingress': start
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] Applying table 'MyIngress.direction'
+[20:38:15.122] [bmv2] [D] [thread 12780] [4.0] [cxt 0] Looking up key:
+* standard_metadata.ingress_port: 0001
+
+[20:38:15.122] [bmv2] [D] [thread 12780] [4.0] [cxt 0] Table 'MyIngress.direction': miss
+[20:38:15.122] [bmv2] [D] [thread 12780] [4.0] [cxt 0] Action entry is NoAction - 
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] Action NoAction
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] Applying table 'tbl_basic405'
+[20:38:15.122] [bmv2] [D] [thread 12780] [4.0] [cxt 0] Looking up key:
+
+[20:38:15.122] [bmv2] [D] [thread 12780] [4.0] [cxt 0] Table 'tbl_basic405': miss
+[20:38:15.122] [bmv2] [D] [thread 12780] [4.0] [cxt 0] Action entry is basic405 - 
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] Action basic405
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] basic.p4(405) Primitive reg_syn_value.write(0, hdr.tcp.syn)
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 0
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] basic.p4(406) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 90
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] basic.p4(407) Primitive reg_egress.write(0, standard_metadata.egress_spec)
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] basic.p4(408) Primitive reg_output.write(0, standard_metadata.egress_port)
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] basic.p4(409) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 706345
+[20:38:15.122] [bmv2] [T] [thread 12780] [4.0] [cxt 0] basic.p4(411) Condition "hdr.ipv4.isValid()" (node_4) is false
+[20:38:15.122] [bmv2] [D] [thread 12780] [4.0] [cxt 0] Pipeline 'ingress': end
+[20:38:15.122] [bmv2] [D] [thread 12780] [4.0] [cxt 0] Egress port is 0
+[20:38:15.122] [bmv2] [D] [thread 12781] [4.0] [cxt 0] Pipeline 'egress': start
+[20:38:15.122] [bmv2] [D] [thread 12781] [4.0] [cxt 0] Pipeline 'egress': end
+[20:38:15.122] [bmv2] [D] [thread 12781] [4.0] [cxt 0] Deparser 'deparser': start
+[20:38:15.122] [bmv2] [T] [thread 12781] [4.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[20:38:15.122] [bmv2] [D] [thread 12781] [4.0] [cxt 0] Deparsing header 'ethernet'
+[20:38:15.122] [bmv2] [D] [thread 12781] [4.0] [cxt 0] Deparser 'deparser': end
+[20:38:15.122] [bmv2] [D] [thread 12785] [4.0] [cxt 0] Transmitting packet of size 90 out of port 0
+[20:38:15.167] [bmv2] [D] [thread 12780] [5.0] [cxt 0] Processing packet received on port 1
+[20:38:15.167] [bmv2] [D] [thread 12780] [5.0] [cxt 0] Parser 'parser': start
+[20:38:15.167] [bmv2] [D] [thread 12780] [5.0] [cxt 0] Parser 'parser' entering state 'start'
+[20:38:15.167] [bmv2] [D] [thread 12780] [5.0] [cxt 0] Extracting header 'ethernet'
+[20:38:15.167] [bmv2] [D] [thread 12780] [5.0] [cxt 0] Parser state 'start': key is 86dd
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] Bytes parsed: 14
+[20:38:15.167] [bmv2] [D] [thread 12780] [5.0] [cxt 0] Parser 'parser': end
+[20:38:15.167] [bmv2] [D] [thread 12780] [5.0] [cxt 0] Pipeline 'ingress': start
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] Applying table 'MyIngress.direction'
+[20:38:15.167] [bmv2] [D] [thread 12780] [5.0] [cxt 0] Looking up key:
+* standard_metadata.ingress_port: 0001
+
+[20:38:15.167] [bmv2] [D] [thread 12780] [5.0] [cxt 0] Table 'MyIngress.direction': miss
+[20:38:15.167] [bmv2] [D] [thread 12780] [5.0] [cxt 0] Action entry is NoAction - 
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] Action NoAction
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] Applying table 'tbl_basic405'
+[20:38:15.167] [bmv2] [D] [thread 12780] [5.0] [cxt 0] Looking up key:
+
+[20:38:15.167] [bmv2] [D] [thread 12780] [5.0] [cxt 0] Table 'tbl_basic405': miss
+[20:38:15.167] [bmv2] [D] [thread 12780] [5.0] [cxt 0] Action entry is basic405 - 
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] Action basic405
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] basic.p4(405) Primitive reg_syn_value.write(0, hdr.tcp.syn)
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 0
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] basic.p4(406) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 212
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] basic.p4(407) Primitive reg_egress.write(0, standard_metadata.egress_spec)
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] basic.p4(408) Primitive reg_output.write(0, standard_metadata.egress_port)
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] basic.p4(409) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 751368
+[20:38:15.167] [bmv2] [T] [thread 12780] [5.0] [cxt 0] basic.p4(411) Condition "hdr.ipv4.isValid()" (node_4) is false
+[20:38:15.167] [bmv2] [D] [thread 12780] [5.0] [cxt 0] Pipeline 'ingress': end
+[20:38:15.167] [bmv2] [D] [thread 12780] [5.0] [cxt 0] Egress port is 0
+[20:38:15.167] [bmv2] [D] [thread 12781] [5.0] [cxt 0] Pipeline 'egress': start
+[20:38:15.167] [bmv2] [D] [thread 12781] [5.0] [cxt 0] Pipeline 'egress': end
+[20:38:15.167] [bmv2] [D] [thread 12781] [5.0] [cxt 0] Deparser 'deparser': start
+[20:38:15.167] [bmv2] [T] [thread 12781] [5.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[20:38:15.167] [bmv2] [D] [thread 12781] [5.0] [cxt 0] Deparsing header 'ethernet'
+[20:38:15.167] [bmv2] [D] [thread 12781] [5.0] [cxt 0] Deparser 'deparser': end
+[20:38:15.167] [bmv2] [D] [thread 12785] [5.0] [cxt 0] Transmitting packet of size 212 out of port 0
+[20:38:15.215] [bmv2] [D] [thread 12780] [6.0] [cxt 0] Processing packet received on port 1
+[20:38:15.215] [bmv2] [D] [thread 12780] [6.0] [cxt 0] Parser 'parser': start
+[20:38:15.215] [bmv2] [D] [thread 12780] [6.0] [cxt 0] Parser 'parser' entering state 'start'
+[20:38:15.215] [bmv2] [D] [thread 12780] [6.0] [cxt 0] Extracting header 'ethernet'
+[20:38:15.215] [bmv2] [D] [thread 12780] [6.0] [cxt 0] Parser state 'start': key is 86dd
+[20:38:15.215] [bmv2] [T] [thread 12780] [6.0] [cxt 0] Bytes parsed: 14
+[20:38:15.215] [bmv2] [D] [thread 12780] [6.0] [cxt 0] Parser 'parser': end
+[20:38:15.215] [bmv2] [D] [thread 12780] [6.0] [cxt 0] Pipeline 'ingress': start
+[20:38:15.215] [bmv2] [T] [thread 12780] [6.0] [cxt 0] Applying table 'MyIngress.direction'
+[20:38:15.215] [bmv2] [D] [thread 12780] [6.0] [cxt 0] Looking up key:
+* standard_metadata.ingress_port: 0001
+
+[20:38:15.215] [bmv2] [D] [thread 12780] [6.0] [cxt 0] Table 'MyIngress.direction': miss
+[20:38:15.215] [bmv2] [D] [thread 12780] [6.0] [cxt 0] Action entry is NoAction - 
+[20:38:15.215] [bmv2] [T] [thread 12780] [6.0] [cxt 0] Action NoAction
+[20:38:15.215] [bmv2] [T] [thread 12780] [6.0] [cxt 0] Applying table 'tbl_basic405'
+[20:38:15.215] [bmv2] [D] [thread 12780] [6.0] [cxt 0] Looking up key:
+
+[20:38:15.215] [bmv2] [D] [thread 12780] [6.0] [cxt 0] Table 'tbl_basic405': miss
+[20:38:15.215] [bmv2] [D] [thread 12780] [6.0] [cxt 0] Action entry is basic405 - 
+[20:38:15.215] [bmv2] [T] [thread 12780] [6.0] [cxt 0] Action basic405
+[20:38:15.215] [bmv2] [T] [thread 12780] [6.0] [cxt 0] basic.p4(405) Primitive reg_syn_value.write(0, hdr.tcp.syn)
+[20:38:15.216] [bmv2] [T] [thread 12780] [6.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 0
+[20:38:15.216] [bmv2] [T] [thread 12780] [6.0] [cxt 0] basic.p4(406) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
+[20:38:15.216] [bmv2] [T] [thread 12780] [6.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 203
+[20:38:15.216] [bmv2] [T] [thread 12780] [6.0] [cxt 0] basic.p4(407) Primitive reg_egress.write(0, standard_metadata.egress_spec)
+[20:38:15.216] [bmv2] [T] [thread 12780] [6.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
+[20:38:15.216] [bmv2] [T] [thread 12780] [6.0] [cxt 0] basic.p4(408) Primitive reg_output.write(0, standard_metadata.egress_port)
+[20:38:15.216] [bmv2] [T] [thread 12780] [6.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
+[20:38:15.216] [bmv2] [T] [thread 12780] [6.0] [cxt 0] basic.p4(409) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
+[20:38:15.216] [bmv2] [T] [thread 12780] [6.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 799661
+[20:38:15.216] [bmv2] [T] [thread 12780] [6.0] [cxt 0] basic.p4(411) Condition "hdr.ipv4.isValid()" (node_4) is false
+[20:38:15.216] [bmv2] [D] [thread 12780] [6.0] [cxt 0] Pipeline 'ingress': end
+[20:38:15.216] [bmv2] [D] [thread 12780] [6.0] [cxt 0] Egress port is 0
+[20:38:15.216] [bmv2] [D] [thread 12781] [6.0] [cxt 0] Pipeline 'egress': start
+[20:38:15.216] [bmv2] [D] [thread 12781] [6.0] [cxt 0] Pipeline 'egress': end
+[20:38:15.216] [bmv2] [D] [thread 12781] [6.0] [cxt 0] Deparser 'deparser': start
+[20:38:15.216] [bmv2] [T] [thread 12781] [6.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[20:38:15.216] [bmv2] [D] [thread 12781] [6.0] [cxt 0] Deparsing header 'ethernet'
+[20:38:15.216] [bmv2] [D] [thread 12781] [6.0] [cxt 0] Deparser 'deparser': end
+[20:38:15.216] [bmv2] [D] [thread 12785] [6.0] [cxt 0] Transmitting packet of size 203 out of port 0
+[20:38:16.581] [bmv2] [T] [thread 12898] bm_get_config
+[20:38:16.604] [bmv2] [T] [thread 12898] bm_table_add_entry
+[20:38:16.604] [bmv2] [D] [thread 12898] Entry 0 added to table 'MyIngress.direction'
+[20:38:16.604] [bmv2] [D] [thread 12898] Dumping entry 0
 Match key:
 * standard_metadata.ingress_port: EXACT     0001
 Action entry: MyIngress.SetDirection - 
 
-[11:27:08.757] [bmv2] [T] [thread 7709] bm_set_default_action
-[11:27:08.757] [bmv2] [D] [thread 7709] Set default entry for table 'MyIngress.layer1': MyIngress.drop - 
-[11:27:08.758] [bmv2] [T] [thread 7709] bm_table_add_entry
-[11:27:08.758] [bmv2] [D] [thread 7709] Entry 0 added to table 'MyIngress.layer1'
-[11:27:08.758] [bmv2] [D] [thread 7709] Dumping entry 0
+[20:38:16.605] [bmv2] [T] [thread 12898] bm_set_default_action
+[20:38:16.605] [bmv2] [D] [thread 12898] Set default entry for table 'MyIngress.layer1': MyIngress.drop - 
+[20:38:16.605] [bmv2] [T] [thread 12898] bm_table_add_entry
+[20:38:16.605] [bmv2] [D] [thread 12898] Entry 0 added to table 'MyIngress.layer1'
+[20:38:16.605] [bmv2] [D] [thread 12898] Dumping entry 0
 Match key:
 * meta.node_id        : EXACT     0000
 * meta.feature_id     : EXACT     0000
 * meta.isTrue         : EXACT     01
 Action entry: MyIngress.Hopping - 1,1,2,
 
-[11:27:08.758] [bmv2] [T] [thread 7709] bm_table_add_entry
-[11:27:08.758] [bmv2] [D] [thread 7709] Entry 0 added to table 'MyIngress.layer2'
-[11:27:08.758] [bmv2] [D] [thread 7709] Dumping entry 0
+[20:38:16.606] [bmv2] [T] [thread 12898] bm_table_add_entry
+[20:38:16.606] [bmv2] [D] [thread 12898] Entry 0 added to table 'MyIngress.layer2'
+[20:38:16.606] [bmv2] [D] [thread 12898] Dumping entry 0
 Match key:
 * meta.node_id        : EXACT     0001
 * meta.feature_id     : EXACT     0001
 * meta.isTrue         : EXACT     01
 Action entry: MyIngress.Hopping - 2,2,1169,
 
-[11:27:08.759] [bmv2] [T] [thread 7709] bm_table_add_entry
-[11:27:08.759] [bmv2] [D] [thread 7709] Entry 0 added to table 'MyIngress.layer3'
-[11:27:08.759] [bmv2] [D] [thread 7709] Dumping entry 0
+[20:38:16.606] [bmv2] [T] [thread 12898] bm_table_add_entry
+[20:38:16.606] [bmv2] [D] [thread 12898] Entry 0 added to table 'MyIngress.layer3'
+[20:38:16.606] [bmv2] [D] [thread 12898] Dumping entry 0
 Match key:
 * meta.node_id        : EXACT     0002
 * meta.feature_id     : EXACT     0002
 * meta.isTrue         : EXACT     01
 Action entry: MyIngress.Label - 3,0,
 
-[11:27:08.760] [bmv2] [T] [thread 7709] bm_table_add_entry
-[11:27:08.760] [bmv2] [D] [thread 7709] Entry 1 added to table 'MyIngress.layer2'
-[11:27:08.760] [bmv2] [D] [thread 7709] Dumping entry 1
+[20:38:16.607] [bmv2] [T] [thread 12898] bm_table_add_entry
+[20:38:16.607] [bmv2] [D] [thread 12898] Entry 1 added to table 'MyIngress.layer2'
+[20:38:16.607] [bmv2] [D] [thread 12898] Dumping entry 1
 Match key:
 * meta.node_id        : EXACT     0001
 * meta.feature_id     : EXACT     0001
 * meta.isTrue         : EXACT     00
 Action entry: MyIngress.Hopping - 5,5,49,
 
-[11:27:08.762] [bmv2] [T] [thread 7709] bm_table_add_entry
-[11:27:08.762] [bmv2] [D] [thread 7709] Entry 1 added to table 'MyIngress.layer3'
-[11:27:08.762] [bmv2] [D] [thread 7709] Dumping entry 1
+[20:38:16.607] [bmv2] [T] [thread 12898] bm_table_add_entry
+[20:38:16.607] [bmv2] [D] [thread 12898] Entry 1 added to table 'MyIngress.layer3'
+[20:38:16.607] [bmv2] [D] [thread 12898] Dumping entry 1
 Match key:
 * meta.node_id        : EXACT     0005
 * meta.feature_id     : EXACT     0005
 * meta.isTrue         : EXACT     01
 Action entry: MyIngress.Label - 6,0,
 
-[11:27:08.763] [bmv2] [T] [thread 7709] bm_table_add_entry
-[11:27:08.763] [bmv2] [D] [thread 7709] Entry 2 added to table 'MyIngress.layer3'
-[11:27:08.763] [bmv2] [D] [thread 7709] Dumping entry 2
+[20:38:16.608] [bmv2] [T] [thread 12898] bm_table_add_entry
+[20:38:16.608] [bmv2] [D] [thread 12898] Entry 2 added to table 'MyIngress.layer3'
+[20:38:16.608] [bmv2] [D] [thread 12898] Dumping entry 2
 Match key:
 * meta.node_id        : EXACT     0005
 * meta.feature_id     : EXACT     0005
 * meta.isTrue         : EXACT     00
 Action entry: MyIngress.Hopping - 7,6,480,
 
-[11:27:08.764] [bmv2] [T] [thread 7709] bm_table_add_entry
-[11:27:08.764] [bmv2] [D] [thread 7709] Entry 0 added to table 'MyIngress.layer4'
-[11:27:08.764] [bmv2] [D] [thread 7709] Dumping entry 0
+[20:38:16.608] [bmv2] [T] [thread 12898] bm_table_add_entry
+[20:38:16.608] [bmv2] [D] [thread 12898] Entry 0 added to table 'MyIngress.layer4'
+[20:38:16.608] [bmv2] [D] [thread 12898] Dumping entry 0
 Match key:
 * meta.node_id        : EXACT     0007
 * meta.feature_id     : EXACT     0006
 * meta.isTrue         : EXACT     01
 Action entry: MyIngress.Label - 8,1,
 
-[11:27:08.764] [bmv2] [T] [thread 7709] bm_table_add_entry
-[11:27:08.764] [bmv2] [D] [thread 7709] Entry 1 added to table 'MyIngress.layer4'
-[11:27:08.764] [bmv2] [D] [thread 7709] Dumping entry 1
+[20:38:16.609] [bmv2] [T] [thread 12898] bm_table_add_entry
+[20:38:16.609] [bmv2] [D] [thread 12898] Entry 1 added to table 'MyIngress.layer4'
+[20:38:16.609] [bmv2] [D] [thread 12898] Dumping entry 1
 Match key:
 * meta.node_id        : EXACT     0007
 * meta.feature_id     : EXACT     0006
 * meta.isTrue         : EXACT     00
 Action entry: MyIngress.Label - 9,0,
 
-[11:27:08.764] [bmv2] [T] [thread 7709] bm_table_add_entry
-[11:27:08.765] [bmv2] [D] [thread 7709] Entry 0 added to table 'MyIngress.ipv4_classifier'
-[11:27:08.765] [bmv2] [D] [thread 7709] Dumping entry 0
+[20:38:16.609] [bmv2] [T] [thread 12898] bm_table_add_entry
+[20:38:16.609] [bmv2] [D] [thread 12898] Entry 0 added to table 'MyIngress.ipv4_classifier'
+[20:38:16.609] [bmv2] [D] [thread 12898] Dumping entry 0
 Match key:
 * meta.label          : EXACT     0000
 * hdr.ipv4.dstAddr    : LPM       0a000101/32
 Action entry: MyIngress.ipv4_forward - a000101,1,
 
-[11:27:08.765] [bmv2] [T] [thread 7709] bm_table_add_entry
-[11:27:08.765] [bmv2] [D] [thread 7709] Entry 1 added to table 'MyIngress.ipv4_classifier'
-[11:27:08.765] [bmv2] [D] [thread 7709] Dumping entry 1
+[20:38:16.610] [bmv2] [T] [thread 12898] bm_table_add_entry
+[20:38:16.610] [bmv2] [D] [thread 12898] Entry 1 added to table 'MyIngress.ipv4_classifier'
+[20:38:16.610] [bmv2] [D] [thread 12898] Dumping entry 1
 Match key:
 * meta.label          : EXACT     0000
 * hdr.ipv4.dstAddr    : LPM       0a000102/32
 Action entry: MyIngress.ipv4_forward - a000102,2,
 
-[11:27:08.765] [bmv2] [T] [thread 7709] bm_set_default_action
-[11:27:08.765] [bmv2] [D] [thread 7709] Set default entry for table 'MyIngress.ipv4_classifier': MyIngress.drop - 
-[11:28:17.105] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Processing packet received on port 1
-[11:28:17.105] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Parser 'parser': start
-[11:28:17.105] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Parser 'parser' entering state 'start'
-[11:28:17.105] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Extracting header 'ethernet'
-[11:28:17.105] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Parser state 'start': key is 0806
-[11:28:17.105] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Bytes parsed: 14
-[11:28:17.105] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Parser 'parser': end
-[11:28:17.105] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Pipeline 'ingress': start
-[11:28:17.105] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Applying table 'tbl_basic372'
-[11:28:17.105] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Looking up key:
-
-[11:28:17.105] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Table 'tbl_basic372': miss
-[11:28:17.106] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Action entry is basic372 - 
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Action basic372
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] basic.p4(372) Primitive reg_syn_value.read(hdr.tcp.syn, 0)
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Read register 'MyIngress.reg_syn_value' at index 0 read value 0
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Applying table 'MyIngress.direction'
-[11:28:17.106] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Looking up key:
+[20:38:16.611] [bmv2] [T] [thread 12898] bm_set_default_action
+[20:38:16.611] [bmv2] [D] [thread 12898] Set default entry for table 'MyIngress.ipv4_classifier': MyIngress.drop - 
+[20:43:02.336] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Processing packet received on port 1
+[20:43:02.336] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Parser 'parser': start
+[20:43:02.336] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Parser 'parser' entering state 'start'
+[20:43:02.336] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Extracting header 'ethernet'
+[20:43:02.336] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Parser state 'start': key is 0806
+[20:43:02.336] [bmv2] [T] [thread 12780] [7.0] [cxt 0] Bytes parsed: 14
+[20:43:02.336] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Parser 'parser': end
+[20:43:02.337] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Pipeline 'ingress': start
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] Applying table 'MyIngress.direction'
+[20:43:02.337] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Looking up key:
 * standard_metadata.ingress_port: 0001
 
-[11:28:17.106] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Table 'MyIngress.direction': hit with handle 0
-[11:28:17.106] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Dumping entry 0
+[20:43:02.337] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Table 'MyIngress.direction': hit with handle 0
+[20:43:02.337] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Dumping entry 0
 Match key:
 * standard_metadata.ingress_port: EXACT     0001
 Action entry: MyIngress.SetDirection - 
 
-[11:28:17.106] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Action entry is MyIngress.SetDirection - 
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Action MyIngress.SetDirection
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] basic.p4(263) Primitive meta.direction = 1
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Applying table 'tbl_basic374'
-[11:28:17.106] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Looking up key:
+[20:43:02.337] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Action entry is MyIngress.SetDirection - 
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] Action MyIngress.SetDirection
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] basic.p4(292) Primitive meta.direction = 1
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] Applying table 'tbl_basic405'
+[20:43:02.337] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Looking up key:
 
-[11:28:17.106] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Table 'tbl_basic374': miss
-[11:28:17.106] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Action entry is basic374 - 
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Action basic374
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] basic.p4(374) Primitive reg_packet_length.read(standard_metadata.packet_length, 0)
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Read register 'MyIngress.reg_packet_length' at index 0 read value 0
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] basic.p4(375) Primitive reg_egress.read(standard_metadata.egress_spec, 0)
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Read register 'MyIngress.reg_egress' at index 0 read value 0
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] basic.p4(376) Primitive reg_output.read(standard_metadata.egress_port, 0)
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Read register 'MyIngress.reg_output' at index 0 read value 0
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] basic.p4(377) Primitive reg_time.read(standard_metadata.ingress_global_timestamp, 0)
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Read register 'MyIngress.reg_time' at index 0 read value 0
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] basic.p4(379) Primitive reg_syn_value.write(0, hdr.tcp.syn)
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 0
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] basic.p4(380) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 0
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] basic.p4(381) Primitive reg_egress.write(0, standard_metadata.egress_spec)
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] basic.p4(382) Primitive reg_output.write(0, standard_metadata.egress_port)
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] basic.p4(383) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 0
-[11:28:17.106] [bmv2] [T] [thread 7482] [4.0] [cxt 0] basic.p4(385) Condition "hdr.ipv4.isValid()" (node_5) is false
-[11:28:17.106] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Pipeline 'ingress': end
-[11:28:17.106] [bmv2] [D] [thread 7482] [4.0] [cxt 0] Egress port is 0
-[11:28:17.106] [bmv2] [D] [thread 7483] [4.0] [cxt 0] Pipeline 'egress': start
-[11:28:17.106] [bmv2] [D] [thread 7483] [4.0] [cxt 0] Pipeline 'egress': end
-[11:28:17.106] [bmv2] [D] [thread 7483] [4.0] [cxt 0] Deparser 'deparser': start
-[11:28:17.106] [bmv2] [T] [thread 7483] [4.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
-[11:28:17.106] [bmv2] [D] [thread 7483] [4.0] [cxt 0] Deparsing header 'ethernet'
-[11:28:17.106] [bmv2] [D] [thread 7483] [4.0] [cxt 0] Deparser 'deparser': end
-[11:28:17.106] [bmv2] [D] [thread 7487] [4.0] [cxt 0] Transmitting packet of size 42 out of port 0
-[11:28:19.134] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Processing packet received on port 1
-[11:28:19.134] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Parser 'parser': start
-[11:28:19.134] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Parser 'parser' entering state 'start'
-[11:28:19.134] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Extracting header 'ethernet'
-[11:28:19.134] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Parser state 'start': key is 0800
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Bytes parsed: 14
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Parser 'parser' entering state 'parse_ipv4'
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Extracting header 'ipv4'
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Parser state 'parse_ipv4' has no switch, going to default next state
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Bytes parsed: 34
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Parser 'parser': end
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Pipeline 'ingress': start
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_basic372'
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
-
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_basic372': miss
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is basic372 - 
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action basic372
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(372) Primitive reg_syn_value.read(hdr.tcp.syn, 0)
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Read register 'MyIngress.reg_syn_value' at index 0 read value 0
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'MyIngress.direction'
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:02.337] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Table 'tbl_basic405': miss
+[20:43:02.337] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Action entry is basic405 - 
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] Action basic405
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] basic.p4(405) Primitive reg_syn_value.write(0, hdr.tcp.syn)
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 0
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] basic.p4(406) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 42
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] basic.p4(407) Primitive reg_egress.write(0, standard_metadata.egress_spec)
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] basic.p4(408) Primitive reg_output.write(0, standard_metadata.egress_port)
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] basic.p4(409) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 287920792
+[20:43:02.337] [bmv2] [T] [thread 12780] [7.0] [cxt 0] basic.p4(411) Condition "hdr.ipv4.isValid()" (node_4) is false
+[20:43:02.337] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Pipeline 'ingress': end
+[20:43:02.337] [bmv2] [D] [thread 12780] [7.0] [cxt 0] Egress port is 0
+[20:43:02.337] [bmv2] [D] [thread 12781] [7.0] [cxt 0] Pipeline 'egress': start
+[20:43:02.337] [bmv2] [D] [thread 12781] [7.0] [cxt 0] Pipeline 'egress': end
+[20:43:02.337] [bmv2] [D] [thread 12781] [7.0] [cxt 0] Deparser 'deparser': start
+[20:43:02.337] [bmv2] [T] [thread 12781] [7.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[20:43:02.337] [bmv2] [D] [thread 12781] [7.0] [cxt 0] Deparsing header 'ethernet'
+[20:43:02.337] [bmv2] [D] [thread 12781] [7.0] [cxt 0] Deparser 'deparser': end
+[20:43:02.337] [bmv2] [D] [thread 12785] [7.0] [cxt 0] Transmitting packet of size 42 out of port 0
+[20:43:04.360] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Processing packet received on port 1
+[20:43:04.360] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Parser 'parser': start
+[20:43:04.360] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Parser 'parser' entering state 'start'
+[20:43:04.360] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Extracting header 'ethernet'
+[20:43:04.360] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Parser state 'start': key is 0800
+[20:43:04.360] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Bytes parsed: 14
+[20:43:04.360] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Parser 'parser' entering state 'parse_ipv4'
+[20:43:04.360] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Extracting header 'ipv4'
+[20:43:04.360] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Parser state 'parse_ipv4': key is 06
+[20:43:04.360] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Bytes parsed: 34
+[20:43:04.360] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Parser 'parser' entering state 'parse_tcp'
+[20:43:04.360] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Extracting header 'tcp'
+[20:43:04.360] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Parser state 'parse_tcp' has no switch, going to default next state
+[20:43:04.360] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Bytes parsed: 54
+[20:43:04.360] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Parser 'parser': end
+[20:43:04.361] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Pipeline 'ingress': start
+[20:43:04.361] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'MyIngress.direction'
+[20:43:04.361] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 * standard_metadata.ingress_port: 0001
 
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'MyIngress.direction': hit with handle 0
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Dumping entry 0
+[20:43:04.361] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'MyIngress.direction': hit with handle 0
+[20:43:04.361] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Dumping entry 0
 Match key:
 * standard_metadata.ingress_port: EXACT     0001
 Action entry: MyIngress.SetDirection - 
 
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is MyIngress.SetDirection - 
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action MyIngress.SetDirection
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(263) Primitive meta.direction = 1
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_basic374'
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.361] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is MyIngress.SetDirection - 
+[20:43:04.361] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action MyIngress.SetDirection
+[20:43:04.361] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(292) Primitive meta.direction = 1
+[20:43:04.361] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_basic405'
+[20:43:04.361] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_basic374': miss
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is basic374 - 
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action basic374
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(374) Primitive reg_packet_length.read(standard_metadata.packet_length, 0)
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Read register 'MyIngress.reg_packet_length' at index 0 read value 0
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(375) Primitive reg_egress.read(standard_metadata.egress_spec, 0)
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Read register 'MyIngress.reg_egress' at index 0 read value 0
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(376) Primitive reg_output.read(standard_metadata.egress_port, 0)
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Read register 'MyIngress.reg_output' at index 0 read value 0
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(377) Primitive reg_time.read(standard_metadata.ingress_global_timestamp, 0)
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Read register 'MyIngress.reg_time' at index 0 read value 0
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(379) Primitive reg_syn_value.write(0, hdr.tcp.syn)
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 0
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(380) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 0
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(381) Primitive reg_egress.write(0, standard_metadata.egress_spec)
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(382) Primitive reg_output.write(0, standard_metadata.egress_port)
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(383) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 0
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(385) Condition "hdr.ipv4.isValid()" (node_5) is true
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(386) Condition "meta.direction ==1" (node_6) is true
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_get_register_index'
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.361] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_basic405': miss
+[20:43:04.361] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is basic405 - 
+[20:43:04.361] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action basic405
+[20:43:04.361] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(405) Primitive reg_syn_value.write(0, hdr.tcp.syn)
+[20:43:04.361] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 1
+[20:43:04.361] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(406) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
+[20:43:04.361] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 54
+[20:43:04.361] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(407) Primitive reg_egress.write(0, standard_metadata.egress_spec)
+[20:43:04.361] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
+[20:43:04.361] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(408) Primitive reg_output.write(0, standard_metadata.egress_port)
+[20:43:04.361] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
+[20:43:04.361] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(409) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
+[20:43:04.361] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 289944532
+[20:43:04.362] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(411) Condition "hdr.ipv4.isValid()" (node_4) is true
+[20:43:04.363] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(412) Condition "meta.direction ==1" (node_5) is true
+[20:43:04.363] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_get_register_index'
+[20:43:04.363] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_get_register_index': miss
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is MyIngress.get_register_index - 
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action MyIngress.get_register_index
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(150) Primitive hash(meta.register_index, HashAlgorithm.crc16, (bit<16>)0, {hdr.ipv4.srcAddr, ...
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] hash(base=0, max=8) = 7
-[11:28:19.135] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_basic392'
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.363] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_get_register_index': miss
+[20:43:04.363] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is MyIngress.get_register_index - 
+[20:43:04.363] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action MyIngress.get_register_index
+[20:43:04.363] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(174) Primitive hash(meta.register_index, HashAlgorithm.crc16, (bit<16>)0, {hdr.ipv4.srcAddr, ...
+[20:43:04.363] [bmv2] [T] [thread 12780] [8.0] [cxt 0] hash(base=0, max=8) = 3
+[20:43:04.363] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_basic418'
+[20:43:04.363] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_basic392': miss
-[11:28:19.135] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is basic392 - 
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action basic392
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(392) Primitive reg_srcip.read(meta.srcip, meta.register_index)
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Read register 'MyIngress.reg_srcip' at index 7 read value 0
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(393) Condition "meta.srcip==0" (node_9) is true
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_basic394'
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.363] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_basic418': miss
+[20:43:04.364] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is basic418 - 
+[20:43:04.364] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action basic418
+[20:43:04.364] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(418) Primitive reg_srcip.read(meta.srcip, meta.register_index)
+[20:43:04.364] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Read register 'MyIngress.reg_srcip' at index 3 read value 0
+[20:43:04.364] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(419) Condition "meta.srcip==0" (node_8) is true
+[20:43:04.364] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_basic420'
+[20:43:04.364] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_basic394': miss
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is basic394 - 
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action basic394
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(394) Primitive meta.first=1
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_init_register'
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.364] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_basic420': miss
+[20:43:04.364] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is basic420 - 
+[20:43:04.364] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action basic420
+[20:43:04.364] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(420) Primitive meta.first=1
+[20:43:04.365] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_init_register'
+[20:43:04.365] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_init_register': miss
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is MyIngress.init_register - 
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action MyIngress.init_register
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(170) Primitive reg_syn_c.write(meta.register_index, 0)
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_syn_c' at index 7 with value 0
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(171) Primitive reg_srcip.write(meta.register_index,0)
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_srcip' at index 7 with value 0
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(172) Primitive reg_dst2src_max_ps.write(meta.register_index,0)
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_dst2src_max_ps' at index 7 with value 0
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(173) Primitive reg_src2dst_max_ps.write(meta.register_index, 0)
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_max_ps' at index 7 with value 0
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(174) Primitive reg_dst2src_pkt.write(meta.register_index, 0)
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_dst2src_pkt' at index 7 with value 0
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(175) Primitive reg_src2dst_pkt.write(meta.register_index, 0)
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_pkt' at index 7 with value 0
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(176) Primitive reg_bidirectional_bytes.write(meta.register_index, 0)
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_bidirectional_bytes' at index 7 with value 0
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(177) Primitive reg_dst2src_bytes.write(meta.register_index, 0)
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_dst2src_bytes' at index 7 with value 0
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(178) Primitive reg_src2dst_bytes.write(meta.register_index, 0)
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_bytes' at index 7 with value 0
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(179) Primitive reg_bidirectional_pkt.write(meta.register_index, 0)
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_bidirectional_pkt' at index 7 with value 0
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(398) Condition "meta.first==1" (node_12) is true
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_basic399'
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.365] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_init_register': miss
+[20:43:04.365] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is MyIngress.init_register - 
+[20:43:04.365] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action MyIngress.init_register
+[20:43:04.365] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(194) Primitive reg_syn_c.write(meta.register_index, 0)
+[20:43:04.365] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_syn_c' at index 3 with value 0
+[20:43:04.365] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(195) Primitive reg_srcip.write(meta.register_index,0)
+[20:43:04.365] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_srcip' at index 3 with value 0
+[20:43:04.365] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(196) Primitive reg_dst2src_max_ps.write(meta.register_index,0)
+[20:43:04.365] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_dst2src_max_ps' at index 3 with value 0
+[20:43:04.365] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(197) Primitive reg_src2dst_max_ps.write(meta.register_index, 0)
+[20:43:04.365] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_max_ps' at index 3 with value 0
+[20:43:04.365] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(198) Primitive reg_dst2src_pkt.write(meta.register_index, 0)
+[20:43:04.366] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_dst2src_pkt' at index 3 with value 0
+[20:43:04.366] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(199) Primitive reg_src2dst_pkt.write(meta.register_index, 0)
+[20:43:04.366] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_pkt' at index 3 with value 0
+[20:43:04.366] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(200) Primitive reg_bidirectional_bytes.write(meta.register_index, 0)
+[20:43:04.366] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_bidirectional_bytes' at index 3 with value 0
+[20:43:04.366] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(201) Primitive reg_dst2src_bytes.write(meta.register_index, 0)
+[20:43:04.366] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_dst2src_bytes' at index 3 with value 0
+[20:43:04.367] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(202) Primitive reg_src2dst_bytes.write(meta.register_index, 0)
+[20:43:04.367] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_bytes' at index 3 with value 0
+[20:43:04.367] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(203) Primitive reg_bidirectional_pkt.write(meta.register_index, 0)
+[20:43:04.367] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_bidirectional_pkt' at index 3 with value 0
+[20:43:04.367] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(424) Condition "meta.first==1" (node_11) is true
+[20:43:04.367] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_basic425'
+[20:43:04.367] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_basic399': miss
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is basic399 - 
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action basic399
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(399) Primitive reg_srcip.write(meta.register_index, hdr.ipv4.srcAddr)
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_srcip' at index 7 with value 167772417
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_basic403'
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.367] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_basic425': miss
+[20:43:04.367] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is basic425 - 
+[20:43:04.367] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action basic425
+[20:43:04.367] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(425) Primitive reg_srcip.write(meta.register_index, hdr.ipv4.srcAddr)
+[20:43:04.367] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_srcip' at index 3 with value 167772417
+[20:43:04.367] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_basic429'
+[20:43:04.367] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_basic403': miss
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is basic403 - 
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action basic403
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(403) Primitive reg_syn_c.read(meta.syn_pkt, meta.register_index)
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Read register 'MyIngress.reg_syn_c' at index 7 read value 0
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(405) Condition "hdr.tcp.syn == 1" (node_15) is false
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_basic412'
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.367] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_basic429': miss
+[20:43:04.368] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is basic429 - 
+[20:43:04.368] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action basic429
+[20:43:04.368] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(429) Primitive reg_syn_c.read(meta.syn_pkt, meta.register_index)
+[20:43:04.368] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Read register 'MyIngress.reg_syn_c' at index 3 read value 0
+[20:43:04.368] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(431) Condition "hdr.tcp.syn == 1" (node_14) is true
+[20:43:04.368] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(432) Condition "hdr.tcp.ack !=1" (node_15) is true
+[20:43:04.368] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_syn_update'
+[20:43:04.368] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_basic412': miss
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is basic412 - 
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action basic412
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(412) Primitive reg_dst2src_max_ps.read(meta.dst2src_max_ps, meta.register_index)
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Read register 'MyIngress.reg_dst2src_max_ps' at index 7 read value 0
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(415) Primitive reg_src2dst_max_ps.read(meta.src2dst_max_ps, meta.register_index)
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Read register 'MyIngress.reg_src2dst_max_ps' at index 7 read value 0
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(416) Condition "meta.src2dst_max_ps<=standard_metadata.packet_length" (node_19) is true
-[11:28:19.136] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_src2dst_max_ps_update'
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.368] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_syn_update': miss
+[20:43:04.368] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is MyIngress.syn_update - 
+[20:43:04.368] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action MyIngress.syn_update
+[20:43:04.368] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(209) Primitive meta.syn_pkt=(bit<32>)hdr.tcp.syn + meta.syn_pkt
+[20:43:04.368] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(210) Primitive reg_syn_c.write(( bit<32> ) x, meta.syn_pkt)
+[20:43:04.368] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_syn_c' at index 3 with value 1
+[20:43:04.368] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_basic438'
+[20:43:04.369] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 
-[11:28:19.136] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_src2dst_max_ps_update': miss
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is MyIngress.src2dst_max_ps_update - 
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action MyIngress.src2dst_max_ps_update
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(200) Primitive meta.src2dst_max_ps=standard_metadata.packet_length
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(201) Primitive reg_src2dst_max_ps.write(meta.register_index, meta.src2dst_max_ps)
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_max_ps' at index 7 with value 0
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_basic420'
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.369] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_basic438': miss
+[20:43:04.369] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is basic438 - 
+[20:43:04.369] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action basic438
+[20:43:04.369] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(438) Primitive reg_dst2src_max_ps.read(meta.dst2src_max_ps, meta.register_index)
+[20:43:04.369] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Read register 'MyIngress.reg_dst2src_max_ps' at index 3 read value 0
+[20:43:04.369] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(441) Primitive reg_src2dst_max_ps.read(meta.src2dst_max_ps, meta.register_index)
+[20:43:04.369] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Read register 'MyIngress.reg_src2dst_max_ps' at index 3 read value 0
+[20:43:04.369] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(442) Condition "meta.src2dst_max_ps<=standard_metadata.packet_length" (node_18) is true
+[20:43:04.369] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_src2dst_max_ps_update'
+[20:43:04.369] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_basic420': miss
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is basic420 - 
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action basic420
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(420) Primitive reg_src2dst_pkt.read(meta.src2dst_pkt, meta.register_index)
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Read register 'MyIngress.reg_src2dst_pkt' at index 7 read value 0
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_src2dst_pkt_update'
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.369] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_src2dst_max_ps_update': miss
+[20:43:04.369] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is MyIngress.src2dst_max_ps_update - 
+[20:43:04.369] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action MyIngress.src2dst_max_ps_update
+[20:43:04.369] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(224) Primitive meta.src2dst_max_ps=standard_metadata.packet_length
+[20:43:04.370] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(225) Primitive reg_src2dst_max_ps.write(meta.register_index, meta.src2dst_max_ps)
+[20:43:04.370] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_max_ps' at index 3 with value 54
+[20:43:04.370] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_basic446'
+[20:43:04.370] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_src2dst_pkt_update': miss
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is MyIngress.src2dst_pkt_update - 
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action MyIngress.src2dst_pkt_update
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(205) Primitive meta.src2dst_pkt= meta.src2dst_pkt +1
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(206) Primitive reg_src2dst_pkt.write(meta.register_index, meta.src2dst_pkt)
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_pkt' at index 7 with value 1
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_basic423'
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.370] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_basic446': miss
+[20:43:04.370] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is basic446 - 
+[20:43:04.370] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action basic446
+[20:43:04.370] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(446) Primitive reg_src2dst_pkt.read(meta.src2dst_pkt, meta.register_index)
+[20:43:04.370] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Read register 'MyIngress.reg_src2dst_pkt' at index 3 read value 0
+[20:43:04.370] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_src2dst_pkt_update'
+[20:43:04.370] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_basic423': miss
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is basic423 - 
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action basic423
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(423) Primitive reg_dst2src_pkt.read(meta.dst2src_pkt, meta.register_index)
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Read register 'MyIngress.reg_dst2src_pkt' at index 7 read value 0
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(425) Primitive reg_src2dst_bytes.read(meta.src2dst_bytes, meta.register_index)
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Read register 'MyIngress.reg_src2dst_bytes' at index 7 read value 0
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_src2dst_bytes_update'
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.371] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_src2dst_pkt_update': miss
+[20:43:04.371] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is MyIngress.src2dst_pkt_update - 
+[20:43:04.371] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action MyIngress.src2dst_pkt_update
+[20:43:04.371] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(229) Primitive meta.src2dst_pkt= meta.src2dst_pkt +1
+[20:43:04.371] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(230) Primitive reg_src2dst_pkt.write(meta.register_index, meta.src2dst_pkt)
+[20:43:04.371] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_pkt' at index 3 with value 1
+[20:43:04.371] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_basic449'
+[20:43:04.371] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_src2dst_bytes_update': miss
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is MyIngress.src2dst_bytes_update - 
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action MyIngress.src2dst_bytes_update
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(218) Primitive meta.src2dst_bytes= meta.src2dst_bytes +standard_metadata.packet_length
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(219) Primitive reg_src2dst_bytes.write(meta.register_index, meta.src2dst_bytes)
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_bytes' at index 7 with value 0
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_basic428'
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.371] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_basic449': miss
+[20:43:04.371] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is basic449 - 
+[20:43:04.372] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action basic449
+[20:43:04.372] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(449) Primitive reg_dst2src_pkt.read(meta.dst2src_pkt, meta.register_index)
+[20:43:04.372] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Read register 'MyIngress.reg_dst2src_pkt' at index 3 read value 0
+[20:43:04.372] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(451) Primitive reg_src2dst_bytes.read(meta.src2dst_bytes, meta.register_index)
+[20:43:04.372] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Read register 'MyIngress.reg_src2dst_bytes' at index 3 read value 0
+[20:43:04.372] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_src2dst_bytes_update'
+[20:43:04.372] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_basic428': miss
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is basic428 - 
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action basic428
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(428) Primitive reg_dst2src_bytes.read(meta.dst2src_pkt, meta.register_index)
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Read register 'MyIngress.reg_dst2src_bytes' at index 7 read value 0
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'tbl_basic468'
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.372] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_src2dst_bytes_update': miss
+[20:43:04.372] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is MyIngress.src2dst_bytes_update - 
+[20:43:04.372] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action MyIngress.src2dst_bytes_update
+[20:43:04.372] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(242) Primitive meta.src2dst_bytes= meta.src2dst_bytes +standard_metadata.packet_length
+[20:43:04.372] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(243) Primitive reg_src2dst_bytes.write(meta.register_index, meta.src2dst_bytes)
+[20:43:04.372] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_bytes' at index 3 with value 54
+[20:43:04.372] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_basic454'
+[20:43:04.372] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'tbl_basic468': miss
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is basic468 - 
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action basic468
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(468) Primitive meta.bidirectional_pkt= meta.src2dst_pkt + meta.dst2src_pkt
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(469) Primitive meta.bidirectional_bytes=meta.src2dst_bytes+meta.dst2src_bytes
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(473) Primitive meta.isTrue = 1
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(474) Primitive meta.feature_id=0
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(475) Primitive meta.node_id=0
-[11:28:19.137] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'MyIngress.layer1'
-[11:28:19.137] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.373] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_basic454': miss
+[20:43:04.373] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is basic454 - 
+[20:43:04.373] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action basic454
+[20:43:04.373] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(454) Primitive reg_dst2src_bytes.read(meta.dst2src_pkt, meta.register_index)
+[20:43:04.373] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Read register 'MyIngress.reg_dst2src_bytes' at index 3 read value 0
+[20:43:04.373] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'tbl_basic494'
+[20:43:04.373] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
+
+[20:43:04.373] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'tbl_basic494': miss
+[20:43:04.373] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is basic494 - 
+[20:43:04.373] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action basic494
+[20:43:04.373] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(494) Primitive meta.bidirectional_pkt= meta.src2dst_pkt + meta.dst2src_pkt
+[20:43:04.373] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(495) Primitive meta.bidirectional_bytes=meta.src2dst_bytes+meta.dst2src_bytes
+[20:43:04.373] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(499) Primitive meta.isTrue = 1
+[20:43:04.373] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(500) Primitive meta.feature_id=0
+[20:43:04.373] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(501) Primitive meta.node_id=0
+[20:43:04.373] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'MyIngress.layer1'
+[20:43:04.374] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 * meta.node_id        : 0000
 * meta.feature_id     : 0000
 * meta.isTrue         : 01
 
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'MyIngress.layer1': hit with handle 0
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Dumping entry 0
+[20:43:04.374] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'MyIngress.layer1': hit with handle 0
+[20:43:04.374] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Dumping entry 0
 Match key:
 * meta.node_id        : EXACT     0000
 * meta.feature_id     : EXACT     0000
 * meta.isTrue         : EXACT     01
 Action entry: MyIngress.Hopping - 1,1,2,
 
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is MyIngress.Hopping - 1,1,2,
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action MyIngress.Hopping
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Primitive (no source info)
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(257) Primitive meta.feature_id=f-1
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(258) Primitive meta.node_id = node_id
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'MyIngress.layer2'
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.374] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is MyIngress.Hopping - 1,1,2,
+[20:43:04.374] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action MyIngress.Hopping
+[20:43:04.374] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(258) Primitive (bit<32>)f
+[20:43:04.374] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(258) Primitive (bit<32>)meta.node_id
+[20:43:04.374] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(258) Primitive reg_feature.write((bit<32>)f, (bit<32>)meta.node_id)
+[20:43:04.374] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 1 with value 0
+[20:43:04.375] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Primitive (no source info)
+[20:43:04.375] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(283) Primitive (bit<32>)meta.node_id
+[20:43:04.375] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(262) Primitive feature
+[20:43:04.375] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(283) Primitive reg_feature.write((bit<32>)meta.node_id, (bit<32>)feature)
+[20:43:04.375] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 0 with value 1
+[20:43:04.375] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(256) Primitive f_id; ...
+[20:43:04.375] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(286) Primitive meta.node_id = node_id
+[20:43:04.375] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(287) Primitive (bit<32>)meta.feature_id
+[20:43:04.375] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(287) Primitive (bit<32>)meta.node_id
+[20:43:04.375] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(287) Primitive reg_feature.write((bit<32>)meta.feature_id, (bit<32>)meta.node_id)
+[20:43:04.375] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 1 with value 1
+[20:43:04.375] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'MyIngress.layer2'
+[20:43:04.375] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 * meta.node_id        : 0001
 * meta.feature_id     : 0001
 * meta.isTrue         : 01
 
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'MyIngress.layer2': hit with handle 0
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Dumping entry 0
+[20:43:04.376] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'MyIngress.layer2': hit with handle 0
+[20:43:04.376] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Dumping entry 0
 Match key:
 * meta.node_id        : EXACT     0001
 * meta.feature_id     : EXACT     0001
 * meta.isTrue         : EXACT     01
 Action entry: MyIngress.Hopping - 2,2,1169,
 
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is MyIngress.Hopping - 2,2,1169,
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action MyIngress.Hopping
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Primitive (no source info)
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(257) Primitive meta.feature_id=f-1
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(258) Primitive meta.node_id = node_id
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'MyIngress.layer3'
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.376] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is MyIngress.Hopping - 2,2,1169,
+[20:43:04.376] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action MyIngress.Hopping
+[20:43:04.376] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(258) Primitive (bit<32>)f
+[20:43:04.376] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(258) Primitive (bit<32>)meta.node_id
+[20:43:04.376] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(258) Primitive reg_feature.write((bit<32>)f, (bit<32>)meta.node_id)
+[20:43:04.376] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 2 with value 1
+[20:43:04.376] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Primitive (no source info)
+[20:43:04.376] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(283) Primitive (bit<32>)meta.node_id
+[20:43:04.376] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(262) Primitive feature
+[20:43:04.376] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(283) Primitive reg_feature.write((bit<32>)meta.node_id, (bit<32>)feature)
+[20:43:04.376] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 1 with value 0
+[20:43:04.376] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(256) Primitive f_id; ...
+[20:43:04.377] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(286) Primitive meta.node_id = node_id
+[20:43:04.377] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(287) Primitive (bit<32>)meta.feature_id
+[20:43:04.377] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(287) Primitive (bit<32>)meta.node_id
+[20:43:04.377] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(287) Primitive reg_feature.write((bit<32>)meta.feature_id, (bit<32>)meta.node_id)
+[20:43:04.377] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 2 with value 2
+[20:43:04.377] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'MyIngress.layer3'
+[20:43:04.377] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 * meta.node_id        : 0002
 * meta.feature_id     : 0002
 * meta.isTrue         : 01
 
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'MyIngress.layer3': hit with handle 0
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Dumping entry 0
+[20:43:04.377] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'MyIngress.layer3': hit with handle 0
+[20:43:04.377] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Dumping entry 0
 Match key:
 * meta.node_id        : EXACT     0002
 * meta.feature_id     : EXACT     0002
 * meta.isTrue         : EXACT     01
 Action entry: MyIngress.Label - 3,0,
 
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is MyIngress.Label - 3,0,
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action MyIngress.Label
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(224) Primitive meta.label = label
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(225) Primitive meta.node_id = node_id
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(479) Condition "meta.label != 0 && meta.label != 1" (node_44) is false
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Applying table 'MyIngress.ipv4_classifier'
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Looking up key:
+[20:43:04.377] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is MyIngress.Label - 3,0,
+[20:43:04.377] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action MyIngress.Label
+[20:43:04.377] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(248) Primitive meta.label = label
+[20:43:04.378] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(249) Primitive meta.node_id = node_id
+[20:43:04.378] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(505) Condition "meta.label != 0 && meta.label != 1" (node_43) is false
+[20:43:04.378] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Applying table 'MyIngress.ipv4_classifier'
+[20:43:04.378] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Looking up key:
 * meta.label          : 0000
 * hdr.ipv4.dstAddr    : 0a000102
 
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Table 'MyIngress.ipv4_classifier': hit with handle 1
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Dumping entry 1
+[20:43:04.378] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Table 'MyIngress.ipv4_classifier': hit with handle 1
+[20:43:04.378] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Dumping entry 1
 Match key:
 * meta.label          : EXACT     0000
 * hdr.ipv4.dstAddr    : LPM       0a000102/32
 Action entry: MyIngress.ipv4_forward - a000102,2,
 
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Action entry is MyIngress.ipv4_forward - a000102,2,
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] Action MyIngress.ipv4_forward
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(267) Primitive standard_metadata.egress_spec = port
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(268) Primitive hdr.ethernet.srcAddr = hdr.ethernet.dstAddr
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(269) Primitive hdr.ethernet.dstAddr = dstAddr
-[11:28:19.138] [bmv2] [T] [thread 7482] [5.0] [cxt 0] basic.p4(270) Primitive hdr.ipv4.ttl = hdr.ipv4.ttl - 1
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Pipeline 'ingress': end
-[11:28:19.138] [bmv2] [D] [thread 7482] [5.0] [cxt 0] Egress port is 2
-[11:28:19.140] [bmv2] [D] [thread 7485] [5.0] [cxt 0] Pipeline 'egress': start
-[11:28:19.140] [bmv2] [D] [thread 7485] [5.0] [cxt 0] Pipeline 'egress': end
-[11:28:19.140] [bmv2] [D] [thread 7485] [5.0] [cxt 0] Deparser 'deparser': start
-[11:28:19.140] [bmv2] [D] [thread 7485] [5.0] [cxt 0] Updating checksum 'cksum'
-[11:28:19.140] [bmv2] [D] [thread 7485] [5.0] [cxt 0] Deparsing header 'ethernet'
-[11:28:19.140] [bmv2] [D] [thread 7485] [5.0] [cxt 0] Deparsing header 'ipv4'
-[11:28:19.140] [bmv2] [D] [thread 7485] [5.0] [cxt 0] Deparser 'deparser': end
-[11:28:19.143] [bmv2] [D] [thread 7487] [5.0] [cxt 0] Transmitting packet of size 54 out of port 2
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Processing packet received on port 2
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Parser 'parser': start
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Parser 'parser' entering state 'start'
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Extracting header 'ethernet'
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Parser state 'start': key is 0800
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Bytes parsed: 14
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Parser 'parser' entering state 'parse_ipv4'
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Extracting header 'ipv4'
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Parser state 'parse_ipv4' has no switch, going to default next state
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Bytes parsed: 34
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Parser 'parser': end
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Pipeline 'ingress': start
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'tbl_basic372'
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:04.378] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Action entry is MyIngress.ipv4_forward - a000102,2,
+[20:43:04.378] [bmv2] [T] [thread 12780] [8.0] [cxt 0] Action MyIngress.ipv4_forward
+[20:43:04.378] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(296) Primitive standard_metadata.egress_spec = port
+[20:43:04.378] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(297) Primitive hdr.ethernet.srcAddr = hdr.ethernet.dstAddr
+[20:43:04.379] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(298) Primitive hdr.ethernet.dstAddr = dstAddr
+[20:43:04.379] [bmv2] [T] [thread 12780] [8.0] [cxt 0] basic.p4(299) Primitive hdr.ipv4.ttl = hdr.ipv4.ttl - 1
+[20:43:04.379] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Pipeline 'ingress': end
+[20:43:04.379] [bmv2] [D] [thread 12780] [8.0] [cxt 0] Egress port is 2
+[20:43:04.379] [bmv2] [D] [thread 12783] [8.0] [cxt 0] Pipeline 'egress': start
+[20:43:04.379] [bmv2] [D] [thread 12783] [8.0] [cxt 0] Pipeline 'egress': end
+[20:43:04.379] [bmv2] [D] [thread 12783] [8.0] [cxt 0] Deparser 'deparser': start
+[20:43:04.379] [bmv2] [D] [thread 12783] [8.0] [cxt 0] Updating checksum 'cksum'
+[20:43:04.379] [bmv2] [D] [thread 12783] [8.0] [cxt 0] Deparsing header 'ethernet'
+[20:43:04.380] [bmv2] [D] [thread 12783] [8.0] [cxt 0] Deparsing header 'ipv4'
+[20:43:04.380] [bmv2] [D] [thread 12783] [8.0] [cxt 0] Deparser 'deparser': end
+[20:43:04.380] [bmv2] [D] [thread 12785] [8.0] [cxt 0] Transmitting packet of size 34 out of port 2
+[20:43:05.460] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Processing packet received on port 1
+[20:43:05.460] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Parser 'parser': start
+[20:43:05.460] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Parser 'parser' entering state 'start'
+[20:43:05.460] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Extracting header 'ethernet'
+[20:43:05.460] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Parser state 'start': key is 0806
+[20:43:05.460] [bmv2] [T] [thread 12780] [9.0] [cxt 0] Bytes parsed: 14
+[20:43:05.460] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Parser 'parser': end
+[20:43:05.460] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Pipeline 'ingress': start
+[20:43:05.460] [bmv2] [T] [thread 12780] [9.0] [cxt 0] Applying table 'MyIngress.direction'
+[20:43:05.460] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Looking up key:
+* standard_metadata.ingress_port: 0001
 
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'tbl_basic372': miss
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is basic372 - 
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action basic372
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(372) Primitive reg_syn_value.read(hdr.tcp.syn, 0)
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Read register 'MyIngress.reg_syn_value' at index 0 read value 0
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'MyIngress.direction'
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
-* standard_metadata.ingress_port: 0002
+[20:43:05.460] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Table 'MyIngress.direction': hit with handle 0
+[20:43:05.460] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Dumping entry 0
+Match key:
+* standard_metadata.ingress_port: EXACT     0001
+Action entry: MyIngress.SetDirection - 
 
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'MyIngress.direction': miss
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is NoAction - 
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action NoAction
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'tbl_basic374'
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:05.460] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Action entry is MyIngress.SetDirection - 
+[20:43:05.460] [bmv2] [T] [thread 12780] [9.0] [cxt 0] Action MyIngress.SetDirection
+[20:43:05.460] [bmv2] [T] [thread 12780] [9.0] [cxt 0] basic.p4(292) Primitive meta.direction = 1
+[20:43:05.460] [bmv2] [T] [thread 12780] [9.0] [cxt 0] Applying table 'tbl_basic405'
+[20:43:05.460] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Looking up key:
 
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'tbl_basic374': miss
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is basic374 - 
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action basic374
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(374) Primitive reg_packet_length.read(standard_metadata.packet_length, 0)
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Read register 'MyIngress.reg_packet_length' at index 0 read value 0
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(375) Primitive reg_egress.read(standard_metadata.egress_spec, 0)
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Read register 'MyIngress.reg_egress' at index 0 read value 0
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(376) Primitive reg_output.read(standard_metadata.egress_port, 0)
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Read register 'MyIngress.reg_output' at index 0 read value 0
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(377) Primitive reg_time.read(standard_metadata.ingress_global_timestamp, 0)
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Read register 'MyIngress.reg_time' at index 0 read value 0
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(379) Primitive reg_syn_value.write(0, hdr.tcp.syn)
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 0
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(380) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 0
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(381) Primitive reg_egress.write(0, standard_metadata.egress_spec)
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(382) Primitive reg_output.write(0, standard_metadata.egress_port)
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(383) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 0
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(385) Condition "hdr.ipv4.isValid()" (node_5) is true
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(386) Condition "meta.direction ==1" (node_6) is false
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'tbl_get_register_index_inverse'
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:05.460] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Table 'tbl_basic405': miss
+[20:43:05.460] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Action entry is basic405 - 
+[20:43:05.461] [bmv2] [T] [thread 12780] [9.0] [cxt 0] Action basic405
+[20:43:05.461] [bmv2] [T] [thread 12780] [9.0] [cxt 0] basic.p4(405) Primitive reg_syn_value.write(0, hdr.tcp.syn)
+[20:43:05.461] [bmv2] [T] [thread 12780] [9.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 1
+[20:43:05.461] [bmv2] [T] [thread 12780] [9.0] [cxt 0] basic.p4(406) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
+[20:43:05.461] [bmv2] [T] [thread 12780] [9.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 42
+[20:43:05.461] [bmv2] [T] [thread 12780] [9.0] [cxt 0] basic.p4(407) Primitive reg_egress.write(0, standard_metadata.egress_spec)
+[20:43:05.461] [bmv2] [T] [thread 12780] [9.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
+[20:43:05.461] [bmv2] [T] [thread 12780] [9.0] [cxt 0] basic.p4(408) Primitive reg_output.write(0, standard_metadata.egress_port)
+[20:43:05.461] [bmv2] [T] [thread 12780] [9.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
+[20:43:05.461] [bmv2] [T] [thread 12780] [9.0] [cxt 0] basic.p4(409) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
+[20:43:05.461] [bmv2] [T] [thread 12780] [9.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 291044587
+[20:43:05.461] [bmv2] [T] [thread 12780] [9.0] [cxt 0] basic.p4(411) Condition "hdr.ipv4.isValid()" (node_4) is false
+[20:43:05.461] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Pipeline 'ingress': end
+[20:43:05.461] [bmv2] [D] [thread 12780] [9.0] [cxt 0] Egress port is 0
+[20:43:05.461] [bmv2] [D] [thread 12781] [9.0] [cxt 0] Pipeline 'egress': start
+[20:43:05.461] [bmv2] [D] [thread 12781] [9.0] [cxt 0] Pipeline 'egress': end
+[20:43:05.461] [bmv2] [D] [thread 12781] [9.0] [cxt 0] Deparser 'deparser': start
+[20:43:05.461] [bmv2] [T] [thread 12781] [9.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[20:43:05.461] [bmv2] [D] [thread 12781] [9.0] [cxt 0] Deparsing header 'ethernet'
+[20:43:05.461] [bmv2] [D] [thread 12781] [9.0] [cxt 0] Deparser 'deparser': end
+[20:43:05.461] [bmv2] [D] [thread 12785] [9.0] [cxt 0] Transmitting packet of size 42 out of port 0
+[20:43:07.479] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Processing packet received on port 1
+[20:43:07.479] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Parser 'parser': start
+[20:43:07.479] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Parser 'parser' entering state 'start'
+[20:43:07.479] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Extracting header 'ethernet'
+[20:43:07.479] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Parser state 'start': key is 0800
+[20:43:07.479] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Bytes parsed: 14
+[20:43:07.480] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Parser 'parser' entering state 'parse_ipv4'
+[20:43:07.480] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Extracting header 'ipv4'
+[20:43:07.480] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Parser state 'parse_ipv4': key is 06
+[20:43:07.480] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Bytes parsed: 34
+[20:43:07.480] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Parser 'parser' entering state 'parse_tcp'
+[20:43:07.480] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Extracting header 'tcp'
+[20:43:07.480] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Parser state 'parse_tcp' has no switch, going to default next state
+[20:43:07.480] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Bytes parsed: 54
+[20:43:07.480] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Parser 'parser': end
+[20:43:07.480] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Pipeline 'ingress': start
+[20:43:07.480] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'MyIngress.direction'
+[20:43:07.480] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
+* standard_metadata.ingress_port: 0001
 
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'tbl_get_register_index_inverse': miss
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is MyIngress.get_register_index_inverse - 
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action MyIngress.get_register_index_inverse
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(159) Primitive hash(meta.register_index_inverse, HashAlgorithm.crc16, (bit<16>)0, {hdr.ipv4.dstAddr, ...
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] hash(base=0, max=8) = 7
-[11:28:19.146] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'tbl_basic435'
-[11:28:19.146] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:07.481] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'MyIngress.direction': hit with handle 0
+[20:43:07.481] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Dumping entry 0
+Match key:
+* standard_metadata.ingress_port: EXACT     0001
+Action entry: MyIngress.SetDirection - 
 
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'tbl_basic435': miss
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is basic435 - 
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action basic435
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(435) Primitive meta.register_index= meta.register_index_inverse
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(436) Primitive reg_srcip.read(meta.srcip, meta.register_index)
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Read register 'MyIngress.reg_srcip' at index 7 read value 167772417
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(438) Condition "meta.srcip==0" (node_28) is false
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(441) Condition "meta.first==1" (node_30) is false
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'tbl_basic445'
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:07.482] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is MyIngress.SetDirection - 
+[20:43:07.482] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action MyIngress.SetDirection
+[20:43:07.482] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(292) Primitive meta.direction = 1
+[20:43:07.482] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'tbl_basic405'
+[20:43:07.482] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
 
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'tbl_basic445': miss
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is basic445 - 
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action basic445
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(445) Primitive reg_dst2src_bytes.read(meta.dst2src_pkt, meta.register_index)
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Read register 'MyIngress.reg_dst2src_bytes' at index 7 read value 0
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'tbl_dst2src_bytes_update'
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:07.482] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'tbl_basic405': miss
+[20:43:07.482] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is basic405 - 
+[20:43:07.482] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action basic405
+[20:43:07.482] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(405) Primitive reg_syn_value.write(0, hdr.tcp.syn)
+[20:43:07.482] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 1
+[20:43:07.482] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(406) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
+[20:43:07.482] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 54
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(407) Primitive reg_egress.write(0, standard_metadata.egress_spec)
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(408) Primitive reg_output.write(0, standard_metadata.egress_port)
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(409) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 293062802
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(411) Condition "hdr.ipv4.isValid()" (node_4) is true
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(412) Condition "meta.direction ==1" (node_5) is true
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'tbl_get_register_index'
+[20:43:07.483] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
 
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'tbl_dst2src_bytes_update': miss
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is MyIngress.dst2src_bytes_update - 
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action MyIngress.dst2src_bytes_update
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(213) Primitive meta.dst2src_bytes= meta.dst2src_bytes +standard_metadata.packet_length
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(214) Primitive reg_dst2src_bytes.write(meta.register_index, meta.dst2src_bytes)
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Wrote register 'MyIngress.reg_dst2src_bytes' at index 7 with value 0
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'tbl_basic448'
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:07.483] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'tbl_get_register_index': miss
+[20:43:07.483] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is MyIngress.get_register_index - 
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action MyIngress.get_register_index
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(174) Primitive hash(meta.register_index, HashAlgorithm.crc16, (bit<16>)0, {hdr.ipv4.srcAddr, ...
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] hash(base=0, max=8) = 3
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'tbl_basic418'
+[20:43:07.483] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
 
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'tbl_basic448': miss
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is basic448 - 
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action basic448
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(448) Primitive reg_src2dst_bytes.read(meta.src2dst_bytes, meta.register_index)
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Read register 'MyIngress.reg_src2dst_bytes' at index 7 read value 0
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(451) Primitive reg_dst2src_pkt.read(meta.dst2src_pkt, meta.register_index)
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Read register 'MyIngress.reg_dst2src_pkt' at index 7 read value 0
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'tbl_dst2src_pkt_update'
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:07.483] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'tbl_basic418': miss
+[20:43:07.483] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is basic418 - 
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action basic418
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(418) Primitive reg_srcip.read(meta.srcip, meta.register_index)
+[20:43:07.483] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Read register 'MyIngress.reg_srcip' at index 3 read value 167772417
+[20:43:07.484] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(419) Condition "meta.srcip==0" (node_8) is false
+[20:43:07.484] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(424) Condition "meta.first==1" (node_11) is false
+[20:43:07.484] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'tbl_basic429'
+[20:43:07.484] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
 
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'tbl_dst2src_pkt_update': miss
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is MyIngress.dst2src_pkt_update - 
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action MyIngress.dst2src_pkt_update
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(209) Primitive meta.dst2src_pkt= meta.dst2src_pkt +1
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(210) Primitive reg_dst2src_pkt.write(meta.register_index, meta.dst2src_pkt)
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Wrote register 'MyIngress.reg_dst2src_pkt' at index 7 with value 1
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'tbl_basic454'
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:07.484] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'tbl_basic429': miss
+[20:43:07.484] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is basic429 - 
+[20:43:07.484] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action basic429
+[20:43:07.484] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(429) Primitive reg_syn_c.read(meta.syn_pkt, meta.register_index)
+[20:43:07.484] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Read register 'MyIngress.reg_syn_c' at index 3 read value 1
+[20:43:07.484] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(431) Condition "hdr.tcp.syn == 1" (node_14) is true
+[20:43:07.484] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(432) Condition "hdr.tcp.ack !=1" (node_15) is true
+[20:43:07.484] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'tbl_syn_update'
+[20:43:07.484] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
 
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'tbl_basic454': miss
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is basic454 - 
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action basic454
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(454) Primitive reg_src2dst_pkt.read(meta.src2dst_pkt, meta.register_index)
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Read register 'MyIngress.reg_src2dst_pkt' at index 7 read value 1
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(456) Primitive reg_syn_c.read(meta.syn_pkt, meta.register_index)
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Read register 'MyIngress.reg_syn_c' at index 7 read value 0
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(460) Primitive reg_dst2src_max_ps.read(meta.dst2src_max_ps, meta.register_index)
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Read register 'MyIngress.reg_dst2src_max_ps' at index 7 read value 0
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(461) Condition "meta.dst2src_max_ps<=standard_metadata.packet_length" (node_37) is true
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'tbl_dst2src_max_ps_update'
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:07.484] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'tbl_syn_update': miss
+[20:43:07.484] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is MyIngress.syn_update - 
+[20:43:07.484] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action MyIngress.syn_update
+[20:43:07.484] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(209) Primitive meta.syn_pkt=(bit<32>)hdr.tcp.syn + meta.syn_pkt
+[20:43:07.484] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(210) Primitive reg_syn_c.write(( bit<32> ) x, meta.syn_pkt)
+[20:43:07.484] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Wrote register 'MyIngress.reg_syn_c' at index 3 with value 2
+[20:43:07.484] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'tbl_basic438'
+[20:43:07.484] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
 
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'tbl_dst2src_max_ps_update': miss
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is MyIngress.dst2src_max_ps_update - 
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action MyIngress.dst2src_max_ps_update
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(195) Primitive meta.dst2src_max_ps=standard_metadata.packet_length
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(196) Primitive reg_dst2src_max_ps.write( meta.register_index, meta.dst2src_max_ps)
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Wrote register 'MyIngress.reg_dst2src_max_ps' at index 7 with value 0
-[11:28:19.147] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'tbl_basic464'
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:07.484] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'tbl_basic438': miss
+[20:43:07.485] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is basic438 - 
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action basic438
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(438) Primitive reg_dst2src_max_ps.read(meta.dst2src_max_ps, meta.register_index)
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Read register 'MyIngress.reg_dst2src_max_ps' at index 3 read value 0
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(441) Primitive reg_src2dst_max_ps.read(meta.src2dst_max_ps, meta.register_index)
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Read register 'MyIngress.reg_src2dst_max_ps' at index 3 read value 54
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(442) Condition "meta.src2dst_max_ps<=standard_metadata.packet_length" (node_18) is true
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'tbl_src2dst_max_ps_update'
+[20:43:07.485] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
 
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'tbl_basic464': miss
-[11:28:19.147] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is basic464 - 
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action basic464
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(464) Primitive reg_src2dst_max_ps.read(meta.src2dst_max_ps, meta.register_index)
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Read register 'MyIngress.reg_src2dst_max_ps' at index 7 read value 0
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'tbl_basic468'
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:07.485] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'tbl_src2dst_max_ps_update': miss
+[20:43:07.485] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is MyIngress.src2dst_max_ps_update - 
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action MyIngress.src2dst_max_ps_update
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(224) Primitive meta.src2dst_max_ps=standard_metadata.packet_length
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(225) Primitive reg_src2dst_max_ps.write(meta.register_index, meta.src2dst_max_ps)
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_max_ps' at index 3 with value 54
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'tbl_basic446'
+[20:43:07.485] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
 
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'tbl_basic468': miss
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is basic468 - 
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action basic468
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(468) Primitive meta.bidirectional_pkt= meta.src2dst_pkt + meta.dst2src_pkt
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(469) Primitive meta.bidirectional_bytes=meta.src2dst_bytes+meta.dst2src_bytes
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(473) Primitive meta.isTrue = 1
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(474) Primitive meta.feature_id=0
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(475) Primitive meta.node_id=0
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'MyIngress.layer1'
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:07.485] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'tbl_basic446': miss
+[20:43:07.485] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is basic446 - 
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action basic446
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(446) Primitive reg_src2dst_pkt.read(meta.src2dst_pkt, meta.register_index)
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Read register 'MyIngress.reg_src2dst_pkt' at index 3 read value 1
+[20:43:07.485] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'tbl_src2dst_pkt_update'
+[20:43:07.486] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
+
+[20:43:07.486] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'tbl_src2dst_pkt_update': miss
+[20:43:07.486] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is MyIngress.src2dst_pkt_update - 
+[20:43:07.486] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action MyIngress.src2dst_pkt_update
+[20:43:07.486] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(229) Primitive meta.src2dst_pkt= meta.src2dst_pkt +1
+[20:43:07.486] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(230) Primitive reg_src2dst_pkt.write(meta.register_index, meta.src2dst_pkt)
+[20:43:07.486] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_pkt' at index 3 with value 2
+[20:43:07.486] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'tbl_basic449'
+[20:43:07.486] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
+
+[20:43:07.486] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'tbl_basic449': miss
+[20:43:07.486] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is basic449 - 
+[20:43:07.486] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action basic449
+[20:43:07.486] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(449) Primitive reg_dst2src_pkt.read(meta.dst2src_pkt, meta.register_index)
+[20:43:07.486] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Read register 'MyIngress.reg_dst2src_pkt' at index 3 read value 0
+[20:43:07.486] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(451) Primitive reg_src2dst_bytes.read(meta.src2dst_bytes, meta.register_index)
+[20:43:07.486] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Read register 'MyIngress.reg_src2dst_bytes' at index 3 read value 54
+[20:43:07.486] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'tbl_src2dst_bytes_update'
+[20:43:07.486] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
+
+[20:43:07.487] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'tbl_src2dst_bytes_update': miss
+[20:43:07.487] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is MyIngress.src2dst_bytes_update - 
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action MyIngress.src2dst_bytes_update
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(242) Primitive meta.src2dst_bytes= meta.src2dst_bytes +standard_metadata.packet_length
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(243) Primitive reg_src2dst_bytes.write(meta.register_index, meta.src2dst_bytes)
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_bytes' at index 3 with value 108
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'tbl_basic454'
+[20:43:07.487] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
+
+[20:43:07.487] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'tbl_basic454': miss
+[20:43:07.487] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is basic454 - 
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action basic454
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(454) Primitive reg_dst2src_bytes.read(meta.dst2src_pkt, meta.register_index)
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Read register 'MyIngress.reg_dst2src_bytes' at index 3 read value 0
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'tbl_basic494'
+[20:43:07.487] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
+
+[20:43:07.487] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'tbl_basic494': miss
+[20:43:07.487] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is basic494 - 
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action basic494
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(494) Primitive meta.bidirectional_pkt= meta.src2dst_pkt + meta.dst2src_pkt
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(495) Primitive meta.bidirectional_bytes=meta.src2dst_bytes+meta.dst2src_bytes
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(499) Primitive meta.isTrue = 1
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(500) Primitive meta.feature_id=0
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(501) Primitive meta.node_id=0
+[20:43:07.487] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'MyIngress.layer1'
+[20:43:07.488] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
 * meta.node_id        : 0000
 * meta.feature_id     : 0000
 * meta.isTrue         : 01
 
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'MyIngress.layer1': hit with handle 0
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Dumping entry 0
+[20:43:07.488] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'MyIngress.layer1': hit with handle 0
+[20:43:07.488] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Dumping entry 0
 Match key:
 * meta.node_id        : EXACT     0000
 * meta.feature_id     : EXACT     0000
 * meta.isTrue         : EXACT     01
 Action entry: MyIngress.Hopping - 1,1,2,
 
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is MyIngress.Hopping - 1,1,2,
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action MyIngress.Hopping
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Primitive (no source info)
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(257) Primitive meta.feature_id=f-1
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(258) Primitive meta.node_id = node_id
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'MyIngress.layer2'
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:07.488] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is MyIngress.Hopping - 1,1,2,
+[20:43:07.488] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action MyIngress.Hopping
+[20:43:07.488] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(258) Primitive (bit<32>)f
+[20:43:07.488] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(258) Primitive (bit<32>)meta.node_id
+[20:43:07.488] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(258) Primitive reg_feature.write((bit<32>)f, (bit<32>)meta.node_id)
+[20:43:07.488] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 1 with value 0
+[20:43:07.488] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Primitive (no source info)
+[20:43:07.488] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(283) Primitive (bit<32>)meta.node_id
+[20:43:07.488] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(262) Primitive feature
+[20:43:07.488] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(283) Primitive reg_feature.write((bit<32>)meta.node_id, (bit<32>)feature)
+[20:43:07.488] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 0 with value 2
+[20:43:07.488] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(256) Primitive f_id; ...
+[20:43:07.488] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(286) Primitive meta.node_id = node_id
+[20:43:07.488] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(287) Primitive (bit<32>)meta.feature_id
+[20:43:07.488] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(287) Primitive (bit<32>)meta.node_id
+[20:43:07.488] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(287) Primitive reg_feature.write((bit<32>)meta.feature_id, (bit<32>)meta.node_id)
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 1 with value 1
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'MyIngress.layer2'
+[20:43:07.489] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
 * meta.node_id        : 0001
 * meta.feature_id     : 0001
 * meta.isTrue         : 01
 
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'MyIngress.layer2': hit with handle 0
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Dumping entry 0
+[20:43:07.489] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'MyIngress.layer2': hit with handle 0
+[20:43:07.489] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Dumping entry 0
 Match key:
 * meta.node_id        : EXACT     0001
 * meta.feature_id     : EXACT     0001
 * meta.isTrue         : EXACT     01
 Action entry: MyIngress.Hopping - 2,2,1169,
 
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is MyIngress.Hopping - 2,2,1169,
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action MyIngress.Hopping
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Primitive (no source info)
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(257) Primitive meta.feature_id=f-1
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(258) Primitive meta.node_id = node_id
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'MyIngress.layer3'
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:07.489] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is MyIngress.Hopping - 2,2,1169,
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action MyIngress.Hopping
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(258) Primitive (bit<32>)f
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(258) Primitive (bit<32>)meta.node_id
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(258) Primitive reg_feature.write((bit<32>)f, (bit<32>)meta.node_id)
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 2 with value 1
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Primitive (no source info)
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(283) Primitive (bit<32>)meta.node_id
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(262) Primitive feature
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(283) Primitive reg_feature.write((bit<32>)meta.node_id, (bit<32>)feature)
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 1 with value 0
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(256) Primitive f_id; ...
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(286) Primitive meta.node_id = node_id
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(287) Primitive (bit<32>)meta.feature_id
+[20:43:07.489] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(287) Primitive (bit<32>)meta.node_id
+[20:43:07.490] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(287) Primitive reg_feature.write((bit<32>)meta.feature_id, (bit<32>)meta.node_id)
+[20:43:07.490] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 2 with value 2
+[20:43:07.490] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'MyIngress.layer3'
+[20:43:07.490] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
 * meta.node_id        : 0002
 * meta.feature_id     : 0002
 * meta.isTrue         : 01
 
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'MyIngress.layer3': hit with handle 0
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Dumping entry 0
+[20:43:07.490] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'MyIngress.layer3': hit with handle 0
+[20:43:07.490] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Dumping entry 0
 Match key:
 * meta.node_id        : EXACT     0002
 * meta.feature_id     : EXACT     0002
 * meta.isTrue         : EXACT     01
 Action entry: MyIngress.Label - 3,0,
 
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is MyIngress.Label - 3,0,
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action MyIngress.Label
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(224) Primitive meta.label = label
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(225) Primitive meta.node_id = node_id
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(479) Condition "meta.label != 0 && meta.label != 1" (node_44) is false
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Applying table 'MyIngress.ipv4_classifier'
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Looking up key:
+[20:43:07.490] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is MyIngress.Label - 3,0,
+[20:43:07.490] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action MyIngress.Label
+[20:43:07.490] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(248) Primitive meta.label = label
+[20:43:07.490] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(249) Primitive meta.node_id = node_id
+[20:43:07.490] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(505) Condition "meta.label != 0 && meta.label != 1" (node_43) is false
+[20:43:07.490] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Applying table 'MyIngress.ipv4_classifier'
+[20:43:07.490] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Looking up key:
 * meta.label          : 0000
-* hdr.ipv4.dstAddr    : 0a000101
+* hdr.ipv4.dstAddr    : 0a000102
 
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Table 'MyIngress.ipv4_classifier': hit with handle 0
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Dumping entry 0
+[20:43:07.490] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Table 'MyIngress.ipv4_classifier': hit with handle 1
+[20:43:07.491] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Dumping entry 1
 Match key:
 * meta.label          : EXACT     0000
-* hdr.ipv4.dstAddr    : LPM       0a000101/32
-Action entry: MyIngress.ipv4_forward - a000101,1,
+* hdr.ipv4.dstAddr    : LPM       0a000102/32
+Action entry: MyIngress.ipv4_forward - a000102,2,
 
-[11:28:19.148] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Action entry is MyIngress.ipv4_forward - a000101,1,
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] Action MyIngress.ipv4_forward
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(267) Primitive standard_metadata.egress_spec = port
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(268) Primitive hdr.ethernet.srcAddr = hdr.ethernet.dstAddr
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(269) Primitive hdr.ethernet.dstAddr = dstAddr
-[11:28:19.148] [bmv2] [T] [thread 7482] [6.0] [cxt 0] basic.p4(270) Primitive hdr.ipv4.ttl = hdr.ipv4.ttl - 1
-[11:28:19.149] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Pipeline 'ingress': end
-[11:28:19.149] [bmv2] [D] [thread 7482] [6.0] [cxt 0] Egress port is 1
-[11:28:19.149] [bmv2] [D] [thread 7484] [6.0] [cxt 0] Pipeline 'egress': start
-[11:28:19.149] [bmv2] [D] [thread 7484] [6.0] [cxt 0] Pipeline 'egress': end
-[11:28:19.149] [bmv2] [D] [thread 7484] [6.0] [cxt 0] Deparser 'deparser': start
-[11:28:19.149] [bmv2] [D] [thread 7484] [6.0] [cxt 0] Updating checksum 'cksum'
-[11:28:19.149] [bmv2] [D] [thread 7484] [6.0] [cxt 0] Deparsing header 'ethernet'
-[11:28:19.149] [bmv2] [D] [thread 7484] [6.0] [cxt 0] Deparsing header 'ipv4'
-[11:28:19.149] [bmv2] [D] [thread 7484] [6.0] [cxt 0] Deparser 'deparser': end
-[11:28:19.149] [bmv2] [D] [thread 7487] [6.0] [cxt 0] Transmitting packet of size 54 out of port 1
-open: No such file or directory
-open: No such file or directory
+[20:43:07.491] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Action entry is MyIngress.ipv4_forward - a000102,2,
+[20:43:07.491] [bmv2] [T] [thread 12780] [10.0] [cxt 0] Action MyIngress.ipv4_forward
+[20:43:07.491] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(296) Primitive standard_metadata.egress_spec = port
+[20:43:07.491] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(297) Primitive hdr.ethernet.srcAddr = hdr.ethernet.dstAddr
+[20:43:07.491] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(298) Primitive hdr.ethernet.dstAddr = dstAddr
+[20:43:07.491] [bmv2] [T] [thread 12780] [10.0] [cxt 0] basic.p4(299) Primitive hdr.ipv4.ttl = hdr.ipv4.ttl - 1
+[20:43:07.491] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Pipeline 'ingress': end
+[20:43:07.491] [bmv2] [D] [thread 12780] [10.0] [cxt 0] Egress port is 2
+[20:43:07.491] [bmv2] [D] [thread 12783] [10.0] [cxt 0] Pipeline 'egress': start
+[20:43:07.491] [bmv2] [D] [thread 12783] [10.0] [cxt 0] Pipeline 'egress': end
+[20:43:07.491] [bmv2] [D] [thread 12783] [10.0] [cxt 0] Deparser 'deparser': start
+[20:43:07.491] [bmv2] [D] [thread 12783] [10.0] [cxt 0] Updating checksum 'cksum'
+[20:43:07.491] [bmv2] [D] [thread 12783] [10.0] [cxt 0] Deparsing header 'ethernet'
+[20:43:07.491] [bmv2] [D] [thread 12783] [10.0] [cxt 0] Deparsing header 'ipv4'
+[20:43:07.491] [bmv2] [D] [thread 12783] [10.0] [cxt 0] Deparser 'deparser': end
+[20:43:07.491] [bmv2] [D] [thread 12785] [10.0] [cxt 0] Transmitting packet of size 34 out of port 2
+[20:43:08.547] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Processing packet received on port 1
+[20:43:08.547] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Parser 'parser': start
+[20:43:08.547] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Parser 'parser' entering state 'start'
+[20:43:08.547] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Extracting header 'ethernet'
+[20:43:08.547] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Parser state 'start': key is 0806
+[20:43:08.547] [bmv2] [T] [thread 12780] [11.0] [cxt 0] Bytes parsed: 14
+[20:43:08.547] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Parser 'parser': end
+[20:43:08.547] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Pipeline 'ingress': start
+[20:43:08.547] [bmv2] [T] [thread 12780] [11.0] [cxt 0] Applying table 'MyIngress.direction'
+[20:43:08.547] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Looking up key:
+* standard_metadata.ingress_port: 0001
+
+[20:43:08.547] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Table 'MyIngress.direction': hit with handle 0
+[20:43:08.547] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Dumping entry 0
+Match key:
+* standard_metadata.ingress_port: EXACT     0001
+Action entry: MyIngress.SetDirection - 
+
+[20:43:08.547] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Action entry is MyIngress.SetDirection - 
+[20:43:08.547] [bmv2] [T] [thread 12780] [11.0] [cxt 0] Action MyIngress.SetDirection
+[20:43:08.547] [bmv2] [T] [thread 12780] [11.0] [cxt 0] basic.p4(292) Primitive meta.direction = 1
+[20:43:08.547] [bmv2] [T] [thread 12780] [11.0] [cxt 0] Applying table 'tbl_basic405'
+[20:43:08.547] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Looking up key:
+
+[20:43:08.547] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Table 'tbl_basic405': miss
+[20:43:08.547] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Action entry is basic405 - 
+[20:43:08.547] [bmv2] [T] [thread 12780] [11.0] [cxt 0] Action basic405
+[20:43:08.547] [bmv2] [T] [thread 12780] [11.0] [cxt 0] basic.p4(405) Primitive reg_syn_value.write(0, hdr.tcp.syn)
+[20:43:08.547] [bmv2] [T] [thread 12780] [11.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 1
+[20:43:08.547] [bmv2] [T] [thread 12780] [11.0] [cxt 0] basic.p4(406) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
+[20:43:08.547] [bmv2] [T] [thread 12780] [11.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 42
+[20:43:08.547] [bmv2] [T] [thread 12780] [11.0] [cxt 0] basic.p4(407) Primitive reg_egress.write(0, standard_metadata.egress_spec)
+[20:43:08.547] [bmv2] [T] [thread 12780] [11.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
+[20:43:08.547] [bmv2] [T] [thread 12780] [11.0] [cxt 0] basic.p4(408) Primitive reg_output.write(0, standard_metadata.egress_port)
+[20:43:08.548] [bmv2] [T] [thread 12780] [11.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
+[20:43:08.548] [bmv2] [T] [thread 12780] [11.0] [cxt 0] basic.p4(409) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
+[20:43:08.548] [bmv2] [T] [thread 12780] [11.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 294131679
+[20:43:08.548] [bmv2] [T] [thread 12780] [11.0] [cxt 0] basic.p4(411) Condition "hdr.ipv4.isValid()" (node_4) is false
+[20:43:08.548] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Pipeline 'ingress': end
+[20:43:08.548] [bmv2] [D] [thread 12780] [11.0] [cxt 0] Egress port is 0
+[20:43:08.548] [bmv2] [D] [thread 12781] [11.0] [cxt 0] Pipeline 'egress': start
+[20:43:08.548] [bmv2] [D] [thread 12781] [11.0] [cxt 0] Pipeline 'egress': end
+[20:43:08.548] [bmv2] [D] [thread 12781] [11.0] [cxt 0] Deparser 'deparser': start
+[20:43:08.548] [bmv2] [T] [thread 12781] [11.0] [cxt 0] Skipping checksum 'cksum' update because condition not met
+[20:43:08.548] [bmv2] [D] [thread 12781] [11.0] [cxt 0] Deparsing header 'ethernet'
+[20:43:08.548] [bmv2] [D] [thread 12781] [11.0] [cxt 0] Deparser 'deparser': end
+[20:43:08.548] [bmv2] [D] [thread 12785] [11.0] [cxt 0] Transmitting packet of size 42 out of port 0
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Processing packet received on port 1
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Parser 'parser': start
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Parser 'parser' entering state 'start'
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Extracting header 'ethernet'
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Parser state 'start': key is 0800
+[20:43:10.563] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Bytes parsed: 14
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Parser 'parser' entering state 'parse_ipv4'
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Extracting header 'ipv4'
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Parser state 'parse_ipv4': key is 06
+[20:43:10.563] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Bytes parsed: 34
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Parser 'parser' entering state 'parse_tcp'
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Extracting header 'tcp'
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Parser state 'parse_tcp' has no switch, going to default next state
+[20:43:10.563] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Bytes parsed: 54
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Parser 'parser': end
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Pipeline 'ingress': start
+[20:43:10.563] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'MyIngress.direction'
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+* standard_metadata.ingress_port: 0001
+
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'MyIngress.direction': hit with handle 0
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Dumping entry 0
+Match key:
+* standard_metadata.ingress_port: EXACT     0001
+Action entry: MyIngress.SetDirection - 
+
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is MyIngress.SetDirection - 
+[20:43:10.563] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action MyIngress.SetDirection
+[20:43:10.563] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(292) Primitive meta.direction = 1
+[20:43:10.563] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'tbl_basic405'
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'tbl_basic405': miss
+[20:43:10.563] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is basic405 - 
+[20:43:10.563] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action basic405
+[20:43:10.563] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(405) Primitive reg_syn_value.write(0, hdr.tcp.syn)
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Wrote register 'MyIngress.reg_syn_value' at index 0 with value 1
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(406) Primitive reg_packet_length.write(0, standard_metadata.packet_length)
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Wrote register 'MyIngress.reg_packet_length' at index 0 with value 54
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(407) Primitive reg_egress.write(0, standard_metadata.egress_spec)
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Wrote register 'MyIngress.reg_egress' at index 0 with value 0
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(408) Primitive reg_output.write(0, standard_metadata.egress_port)
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Wrote register 'MyIngress.reg_output' at index 0 with value 0
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(409) Primitive reg_time.write(0, standard_metadata.ingress_global_timestamp)
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Wrote register 'MyIngress.reg_time' at index 0 with value 296147636
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(411) Condition "hdr.ipv4.isValid()" (node_4) is true
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(412) Condition "meta.direction ==1" (node_5) is true
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'tbl_get_register_index'
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'tbl_get_register_index': miss
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is MyIngress.get_register_index - 
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action MyIngress.get_register_index
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(174) Primitive hash(meta.register_index, HashAlgorithm.crc16, (bit<16>)0, {hdr.ipv4.srcAddr, ...
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] hash(base=0, max=8) = 3
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'tbl_basic418'
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'tbl_basic418': miss
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is basic418 - 
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action basic418
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(418) Primitive reg_srcip.read(meta.srcip, meta.register_index)
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Read register 'MyIngress.reg_srcip' at index 3 read value 167772417
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(419) Condition "meta.srcip==0" (node_8) is false
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(424) Condition "meta.first==1" (node_11) is false
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'tbl_basic429'
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'tbl_basic429': miss
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is basic429 - 
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action basic429
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(429) Primitive reg_syn_c.read(meta.syn_pkt, meta.register_index)
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Read register 'MyIngress.reg_syn_c' at index 3 read value 2
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(431) Condition "hdr.tcp.syn == 1" (node_14) is true
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(432) Condition "hdr.tcp.ack !=1" (node_15) is true
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'tbl_syn_update'
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'tbl_syn_update': miss
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is MyIngress.syn_update - 
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action MyIngress.syn_update
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(209) Primitive meta.syn_pkt=(bit<32>)hdr.tcp.syn + meta.syn_pkt
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(210) Primitive reg_syn_c.write(( bit<32> ) x, meta.syn_pkt)
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Wrote register 'MyIngress.reg_syn_c' at index 3 with value 3
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'tbl_basic438'
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'tbl_basic438': miss
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is basic438 - 
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action basic438
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(438) Primitive reg_dst2src_max_ps.read(meta.dst2src_max_ps, meta.register_index)
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Read register 'MyIngress.reg_dst2src_max_ps' at index 3 read value 0
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(441) Primitive reg_src2dst_max_ps.read(meta.src2dst_max_ps, meta.register_index)
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Read register 'MyIngress.reg_src2dst_max_ps' at index 3 read value 54
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(442) Condition "meta.src2dst_max_ps<=standard_metadata.packet_length" (node_18) is true
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'tbl_src2dst_max_ps_update'
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'tbl_src2dst_max_ps_update': miss
+[20:43:10.564] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is MyIngress.src2dst_max_ps_update - 
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action MyIngress.src2dst_max_ps_update
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(224) Primitive meta.src2dst_max_ps=standard_metadata.packet_length
+[20:43:10.564] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(225) Primitive reg_src2dst_max_ps.write(meta.register_index, meta.src2dst_max_ps)
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_max_ps' at index 3 with value 54
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'tbl_basic446'
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'tbl_basic446': miss
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is basic446 - 
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action basic446
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(446) Primitive reg_src2dst_pkt.read(meta.src2dst_pkt, meta.register_index)
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Read register 'MyIngress.reg_src2dst_pkt' at index 3 read value 2
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'tbl_src2dst_pkt_update'
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'tbl_src2dst_pkt_update': miss
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is MyIngress.src2dst_pkt_update - 
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action MyIngress.src2dst_pkt_update
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(229) Primitive meta.src2dst_pkt= meta.src2dst_pkt +1
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(230) Primitive reg_src2dst_pkt.write(meta.register_index, meta.src2dst_pkt)
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_pkt' at index 3 with value 3
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'tbl_basic449'
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'tbl_basic449': miss
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is basic449 - 
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action basic449
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(449) Primitive reg_dst2src_pkt.read(meta.dst2src_pkt, meta.register_index)
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Read register 'MyIngress.reg_dst2src_pkt' at index 3 read value 0
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(451) Primitive reg_src2dst_bytes.read(meta.src2dst_bytes, meta.register_index)
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Read register 'MyIngress.reg_src2dst_bytes' at index 3 read value 108
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'tbl_src2dst_bytes_update'
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'tbl_src2dst_bytes_update': miss
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is MyIngress.src2dst_bytes_update - 
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action MyIngress.src2dst_bytes_update
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(242) Primitive meta.src2dst_bytes= meta.src2dst_bytes +standard_metadata.packet_length
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(243) Primitive reg_src2dst_bytes.write(meta.register_index, meta.src2dst_bytes)
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Wrote register 'MyIngress.reg_src2dst_bytes' at index 3 with value 162
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'tbl_basic454'
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'tbl_basic454': miss
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is basic454 - 
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action basic454
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(454) Primitive reg_dst2src_bytes.read(meta.dst2src_pkt, meta.register_index)
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Read register 'MyIngress.reg_dst2src_bytes' at index 3 read value 0
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'tbl_basic494'
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'tbl_basic494': miss
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is basic494 - 
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action basic494
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(494) Primitive meta.bidirectional_pkt= meta.src2dst_pkt + meta.dst2src_pkt
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(495) Primitive meta.bidirectional_bytes=meta.src2dst_bytes+meta.dst2src_bytes
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(499) Primitive meta.isTrue = 1
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(500) Primitive meta.feature_id=0
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(501) Primitive meta.node_id=0
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'MyIngress.layer1'
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+* meta.node_id        : 0000
+* meta.feature_id     : 0000
+* meta.isTrue         : 01
+
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'MyIngress.layer1': hit with handle 0
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Dumping entry 0
+Match key:
+* meta.node_id        : EXACT     0000
+* meta.feature_id     : EXACT     0000
+* meta.isTrue         : EXACT     01
+Action entry: MyIngress.Hopping - 1,1,2,
+
+[20:43:10.565] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is MyIngress.Hopping - 1,1,2,
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action MyIngress.Hopping
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(258) Primitive (bit<32>)f
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(258) Primitive (bit<32>)meta.node_id
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(258) Primitive reg_feature.write((bit<32>)f, (bit<32>)meta.node_id)
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 1 with value 0
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Primitive (no source info)
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(283) Primitive (bit<32>)meta.node_id
+[20:43:10.565] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(262) Primitive feature
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(283) Primitive reg_feature.write((bit<32>)meta.node_id, (bit<32>)feature)
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 0 with value 3
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(256) Primitive f_id; ...
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(286) Primitive meta.node_id = node_id
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(287) Primitive (bit<32>)meta.feature_id
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(287) Primitive (bit<32>)meta.node_id
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(287) Primitive reg_feature.write((bit<32>)meta.feature_id, (bit<32>)meta.node_id)
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 1 with value 1
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'MyIngress.layer2'
+[20:43:10.566] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+* meta.node_id        : 0001
+* meta.feature_id     : 0001
+* meta.isTrue         : 00
+
+[20:43:10.566] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'MyIngress.layer2': hit with handle 1
+[20:43:10.566] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Dumping entry 1
+Match key:
+* meta.node_id        : EXACT     0001
+* meta.feature_id     : EXACT     0001
+* meta.isTrue         : EXACT     00
+Action entry: MyIngress.Hopping - 5,5,49,
+
+[20:43:10.566] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is MyIngress.Hopping - 5,5,49,
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action MyIngress.Hopping
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(258) Primitive (bit<32>)f
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(258) Primitive (bit<32>)meta.node_id
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(258) Primitive reg_feature.write((bit<32>)f, (bit<32>)meta.node_id)
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 5 with value 1
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Primitive (no source info)
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(283) Primitive (bit<32>)meta.node_id
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(262) Primitive feature
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(283) Primitive reg_feature.write((bit<32>)meta.node_id, (bit<32>)feature)
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 1 with value 162
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(256) Primitive f_id; ...
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(286) Primitive meta.node_id = node_id
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(287) Primitive (bit<32>)meta.feature_id
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(287) Primitive (bit<32>)meta.node_id
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(287) Primitive reg_feature.write((bit<32>)meta.feature_id, (bit<32>)meta.node_id)
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Wrote register 'MyIngress.reg_feature' at index 5 with value 5
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'MyIngress.layer3'
+[20:43:10.566] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+* meta.node_id        : 0005
+* meta.feature_id     : 0005
+* meta.isTrue         : 01
+
+[20:43:10.566] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'MyIngress.layer3': hit with handle 1
+[20:43:10.566] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Dumping entry 1
+Match key:
+* meta.node_id        : EXACT     0005
+* meta.feature_id     : EXACT     0005
+* meta.isTrue         : EXACT     01
+Action entry: MyIngress.Label - 6,0,
+
+[20:43:10.566] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is MyIngress.Label - 6,0,
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action MyIngress.Label
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(248) Primitive meta.label = label
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(249) Primitive meta.node_id = node_id
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(505) Condition "meta.label != 0 && meta.label != 1" (node_43) is false
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Applying table 'MyIngress.ipv4_classifier'
+[20:43:10.566] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Looking up key:
+* meta.label          : 0000
+* hdr.ipv4.dstAddr    : 0a000102
+
+[20:43:10.566] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Table 'MyIngress.ipv4_classifier': hit with handle 1
+[20:43:10.566] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Dumping entry 1
+Match key:
+* meta.label          : EXACT     0000
+* hdr.ipv4.dstAddr    : LPM       0a000102/32
+Action entry: MyIngress.ipv4_forward - a000102,2,
+
+[20:43:10.566] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Action entry is MyIngress.ipv4_forward - a000102,2,
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] Action MyIngress.ipv4_forward
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(296) Primitive standard_metadata.egress_spec = port
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(297) Primitive hdr.ethernet.srcAddr = hdr.ethernet.dstAddr
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(298) Primitive hdr.ethernet.dstAddr = dstAddr
+[20:43:10.566] [bmv2] [T] [thread 12780] [12.0] [cxt 0] basic.p4(299) Primitive hdr.ipv4.ttl = hdr.ipv4.ttl - 1
+[20:43:10.566] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Pipeline 'ingress': end
+[20:43:10.566] [bmv2] [D] [thread 12780] [12.0] [cxt 0] Egress port is 2
+[20:43:10.567] [bmv2] [D] [thread 12783] [12.0] [cxt 0] Pipeline 'egress': start
+[20:43:10.567] [bmv2] [D] [thread 12783] [12.0] [cxt 0] Pipeline 'egress': end
+[20:43:10.567] [bmv2] [D] [thread 12783] [12.0] [cxt 0] Deparser 'deparser': start
+[20:43:10.567] [bmv2] [D] [thread 12783] [12.0] [cxt 0] Updating checksum 'cksum'
+[20:43:10.567] [bmv2] [D] [thread 12783] [12.0] [cxt 0] Deparsing header 'ethernet'
+[20:43:10.567] [bmv2] [D] [thread 12783] [12.0] [cxt 0] Deparsing header 'ipv4'
+[20:43:10.567] [bmv2] [D] [thread 12783] [12.0] [cxt 0] Deparser 'deparser': end
+[20:43:10.567] [bmv2] [D] [thread 12785] [12.0] [cxt 0] Transmitting packet of size 34 out of port 2

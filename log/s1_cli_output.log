@@ -1,0 +1,68 @@
+Obtaining JSON from switch...
+Done
+Control utility for runtime P4 table manipulation
+RuntimeCmd: Error: Invalid table name (ipv4_lpm)
+RuntimeCmd: Error: Invalid table name (ipv4_lpm)
+RuntimeCmd: Adding entry to exact match table direction
+match key:           EXACT-00:01
+action:              SetDirection
+runtime data:        
+Entry has been added with handle 0
+RuntimeCmd: Setting default action of layer1
+action:              drop
+runtime data:        
+RuntimeCmd: Adding entry to exact match table layer1
+match key:           EXACT-00:00	EXACT-00:00	EXACT-01
+action:              Hopping
+runtime data:        00:01	00:01	00:00:00:02
+Entry has been added with handle 0
+RuntimeCmd: Adding entry to exact match table layer2
+match key:           EXACT-00:01	EXACT-00:01	EXACT-01
+action:              Hopping
+runtime data:        00:02	00:02	00:00:11:69
+Entry has been added with handle 0
+RuntimeCmd: Adding entry to exact match table layer3
+match key:           EXACT-00:02	EXACT-00:02	EXACT-01
+action:              Label
+runtime data:        00:03	00:00
+Entry has been added with handle 0
+RuntimeCmd: Error: Table layer3 needs 3 key fields
+RuntimeCmd: Adding entry to exact match table layer2
+match key:           EXACT-00:01	EXACT-00:01	EXACT-00
+action:              Hopping
+runtime data:        00:05	00:05	00:00:00:49
+Entry has been added with handle 1
+RuntimeCmd: Adding entry to exact match table layer3
+match key:           EXACT-00:05	EXACT-00:05	EXACT-01
+action:              Label
+runtime data:        00:06	00:00
+Entry has been added with handle 1
+RuntimeCmd: Adding entry to exact match table layer3
+match key:           EXACT-00:05	EXACT-00:05	EXACT-00
+action:              Hopping
+runtime data:        00:07	00:06	00:00:04:80
+Entry has been added with handle 2
+RuntimeCmd: Adding entry to exact match table layer4
+match key:           EXACT-00:07	EXACT-00:06	EXACT-01
+action:              Label
+runtime data:        00:08	00:01
+Entry has been added with handle 0
+RuntimeCmd: Adding entry to exact match table layer4
+match key:           EXACT-00:07	EXACT-00:06	EXACT-00
+action:              Label
+runtime data:        00:09	00:00
+Entry has been added with handle 1
+RuntimeCmd: Adding entry to lpm match table ipv4_classifier
+match key:           EXACT-00:00	LPM-0a:00:01:01/32
+action:              ipv4_forward
+runtime data:        00:00:0a:00:01:01	00:01
+Entry has been added with handle 0
+RuntimeCmd: Adding entry to lpm match table ipv4_classifier
+match key:           EXACT-00:00	LPM-0a:00:01:02/32
+action:              ipv4_forward
+runtime data:        00:00:0a:00:01:02	00:02
+Entry has been added with handle 1
+RuntimeCmd: Setting default action of ipv4_classifier
+action:              drop
+runtime data:        
+RuntimeCmd: 
